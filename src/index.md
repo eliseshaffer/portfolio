@@ -2,7 +2,7 @@
 layout: default
 ---
 
-👋🏻 Hey! I'm Elise. I'm a Rubyist, an engineering manager, and a trans
+👋🏻 Hey! I'm Elise and I use she/her pronouns. I'm a Rubyist, an engineering manager, and a trans
 woman living in Longmont, CO.
 
 I work at [Red Canary](https://redcanary.com), where I lead the team
