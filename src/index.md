@@ -2,7 +2,7 @@
 layout: default
 paginate:
   collection: posts
-  per_page: 4
+  per_page: 6
 ---
 👋🏻 Hey! I'm Elise and I use she/her pronouns. I'm a Rubyist, an engineering manager, and a trans
 woman living in Longmont, CO.
