@@ -13,7 +13,7 @@ topics.
 
 In my spare time, I enjoy cycling, climbing, cooking, and reading.
 
-<h2>Blog</h2>
+<h2 class="margin-top-2">Blog</h2>
 <ul>
   <% paginator.resources.each do |post| %>
     <article>
