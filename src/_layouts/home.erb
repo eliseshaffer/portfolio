@@ -1,0 +1,22 @@
+---
+layout: default
+paginate:
+  collection: posts
+  per_page: 4
+---
+
+<%= yield %>
+
+<h2>Blog</h2>
+<ul>
+  <% paginator.resources.each do |post| %>
+    <h3>
+      <a href="<%= post.relative_url %>">
+        <%= post.data.title %>
+      </a>
+    </h3>
+    <p>
+      <%= post.summary %>
+    </p>
+    <% end %>
+</ul>
