@@ -1,15 +1,32 @@
 <!doctype html>
 <html lang="<%= site.locale %>">
-  <head>
-    <%= render "head", metadata: site.metadata, title: resource.data.title %>
-  </head>
-  <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
-    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+
+<head>
+  <%= render "head" , metadata: site.metadata, title: resource.data.title %>
+</head>
+
+<body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
+  <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
     <main>
       <%= yield %>
+
+      <h2>Blog</h2>
+        <ul>
+          <% collections.posts.resources.each do |post| %>
+            <h3>
+              <a href="<%= post.relative_url %>">
+                <%= post.data.title %>
+              </a>
+            </h3>
+            <p>
+              <%= post.summary %>
+            </p>
+            <% end %>
+        </ul>
     </main>
 
-    <%= render "footer", metadata: site.metadata %>
-  </body>
+    <%= render "footer" , metadata: site.metadata %>
+</body>
+
 </html>

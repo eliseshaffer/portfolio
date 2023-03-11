@@ -1,84 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "reset";
+
 :root {
-  --body-background: #f2f2f2;
-  --body-color: #444;
-  --heading-color: black;
-  --action-color: #d64045;
+  --title-font: "Inter";
+  --body-font: "Inter";
+
+  --light-gray-50: #ECEFF1;
+
+  --green-400: #66BB6A;
+  --green-500: #4CAF50;
+  --green-600: #43A047;
+  --light-green-800: #2E7D32;
+  --light-green-900: #1B5E20;
 }
 
 body {
-  background: var(--body-background);
-  color: var(--body-color);
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    "Helvetica", "Arial", sans-serif;
-  margin: 0 8px;
-  font-size: 108%;
-  line-height: 1.5;
-}
-
-a {
-  color: var(--action-color);
-  text-decoration: underline;
-  text-decoration-color: #ffb088;
-}
-
-h1 {
-  margin: 1rem 0 3rem;
-  text-align: center;
-  font-weight: 900;
-  font-size: 2.5rem;
-  color: var(--heading-color);
-  line-height: 1.2;
-}
-
-body > header {
-  margin: 1rem;
-  text-align: center;
-}
-
-body > header img {
-  display: inline-block;
-  width: 400px;
-  max-width: 100%;
-}
-
-body > nav ul {
-  margin: 2rem 0;
-  padding: 0;
-  list-style-type: none;
+  font-family: var(--body-font), sans-serif;
+  margin: 0 auto;
+  max-width: 65ch;
   display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  font-size: 1.3rem;
-  font-weight: bold;
+  flex-direction: column;
+  min-height: 100svh;
 }
 
-body > nav a {
-  text-decoration: none;
-}
-
-main {
-  margin: 2rem auto 4rem;
-  max-width: 65rem;
-  min-height: calc(100vh - 200px);
-  padding: 25px 25px 50px;
-  background: white;
-  box-shadow: 2px 3px 3px #ddd;
-  border-radius: 3px;
-
-  @media (max-width: 500px) {
-    padding: 16px 16px 50px;
-  }
+header {
+  margin-block: 2rem 1rem;
+  text-align: center;
 }
 
 footer {
+  margin-block: 1rem 2rem;
   text-align: center;
-  margin-bottom: 4rem;
-  font-size: 1em;
 }
 
-hr {
-  border: none;
-  border-top: 2px dotted #bbb;
-  margin: 3rem 0;
+main {
+  max-width: 65ch;
+  margin: 0 1rem;
+  flex-grow: 1;
+}
+
+ul {
+  padding-left: 0;
+}
+
+p > code {
+  background-color: var(--light-gray-50);
+  padding-inline: .5rem;
+  padding-block: 0.1125rem;
+  border-radius: 0.25rem;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+  color: var(--green-500);
+  font-weight: 500;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+// utilities
+.margin-bottom-2 {
+  margin-bottom: 2rem;
+}
+
+.margin-top-4 {
+  margin-top: 4rem;
+}
+
+.text-green {
+  color: var(--green-500);
+}
+
+
+//blocks
+
+.back-navigation {
+  text-align: center;
+  margin-top: 1rem;
 }

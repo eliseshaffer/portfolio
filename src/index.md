@@ -5,12 +5,8 @@ layout: default
 👋🏻 Hey! I'm Elise and I use she/her pronouns. I'm a Rubyist, an engineering manager, and a trans
 woman living in Longmont, CO.
 
-I work at [Red Canary](https://redcanary.com), where I lead the team
-building our integrations for Network, Endpoint, and SIEM products. I also
-give talks, develop courses, and build Rails apps on the side. 
-
-Previously, I've worked in a variety of industries including juvenile
-products, consumer electronics, and fintech using Ruby, Rails, and
-Embedded C.
+I've worked in the Security, Payments, and consumer electronics
+industries. I also give talks, develop courses, and blog about various
+topics.
 
 In my spare time, I enjoy cycling, climbing, cooking, and reading.

@@ -2,7 +2,8 @@
 #
 # Learn more at: https://puma.io
 #
-port ENV.fetch("BRIDGETOWN_PORT") { 4000 }
+# port ENV.fetch("BRIDGETOWN_PORT") { 4000 }
+bind "tcp://0.0.0.0:#{ENV['PORT'] || 4000}"
 
 # You can adjust the number of workers (separate processes) and threads
 # (per process) based on your production system
