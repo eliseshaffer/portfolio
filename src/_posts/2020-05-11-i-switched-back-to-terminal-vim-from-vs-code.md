@@ -17,7 +17,7 @@ But over the past couple years, I've found myself getting a little annoyed at so
 
 The way VS Code handles open files and tabs is just like many other text editors. It creates some columns and then tabs populate those columns. So when you need to switch between domains, you have to switch both columns. You can see what I'm talking about below:
 
-![vim switches two files at a time in a rails project while VS Code requires you to switch each file individually](/assets/images/posts/tabswitching.gif "Vim/VS Code tab switching")
+![vim switches two files at a time in a rails project while VS Code requires you to switch each file individually](/images/2020-05-11-tabswitching.gif)
 
 Vim also doesn't show every buffer you have open in tabs. When you switch files, the default is to open that file in the current split. The file is still open in memory and showing all your buffers will show you the files, but having a clean view of what you're looking at is helpful. Recently, I've found myself having to close all my tabs and start over a lot with VS Code, simply because my tabs are way too cluttered to see what's going on. 
 
