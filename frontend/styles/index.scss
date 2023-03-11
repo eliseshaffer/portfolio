@@ -7,9 +7,11 @@
 
   --light-gray-50: #ECEFF1;
 
+  --green-50: #E8F5E9;
   --green-400: #66BB6A;
   --green-500: #4CAF50;
   --green-600: #43A047;
+  --green-900: #1B5E20;
   --light-green-800: #2E7D32;
   --light-green-900: #1B5E20;
 }
@@ -65,6 +67,17 @@ a {
 
 p {
   margin: 1rem 0;
+}
+
+blockquote {
+  background-color: var(--green-50);
+  color: var(--green-900);
+  padding-inline: 1rem;
+  padding-block: 0.25rem;
+
+  p {
+    margin-block: 0px
+  }
 }
 
 // utilities
