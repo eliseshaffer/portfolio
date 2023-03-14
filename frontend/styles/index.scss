@@ -103,8 +103,16 @@ blockquote {
   color: var(--green-500);
 }
 
+.text-dark-green {
+  color: var(--green-900);
+}
+
 .text-black {
   color: black;
+}
+
+.text-center {
+  text-align: center;
 }
 
 
@@ -112,4 +120,14 @@ blockquote {
 .back-navigation {
   text-align: center;
   margin-top: 1rem;
+}
+
+.contact-card {
+  background-color: var(--green-50);
+  display: grid;
+  padding: 1rem 2rem;
+
+  input, textarea {
+    width: 100%;
+  }
 }

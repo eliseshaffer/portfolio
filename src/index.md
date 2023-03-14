@@ -2,7 +2,7 @@
 layout: default
 paginate:
   collection: posts
-  per_page: 6
+  per_page: 3
 ---
 👋🏻 Hey! I'm Elise and I use she/her pronouns. I'm a Rubyist, an engineering manager, and a trans
 woman living in Longmont, CO.
@@ -13,7 +13,7 @@ topics.
 
 In my spare time, I enjoy cycling, climbing, cooking, and reading.
 
-<h2 class="margin-top-2">Blog</h2>
+<h2 class="margin-top-2">Latest from <a href="/posts">The Blog</a></h2>
 <ul>
   <% paginator.resources.each do |post| %>
     <article>
@@ -30,3 +30,5 @@ In my spare time, I enjoy cycling, climbing, cooking, and reading.
 </ul>
 
 <a href="/posts">View All Posts</a>
+
+<%= render "contact_form" %>
