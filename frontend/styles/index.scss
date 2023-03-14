@@ -6,7 +6,7 @@
   --body-font: "Inter";
 
   --light-gray-50: #ECEFF1;
-
+  --green-25: hsl(125, 39%, 94%);
   --green-50: #E8F5E9;
   --green-400: #66BB6A;
   --green-500: #4CAF50;
@@ -20,8 +20,6 @@ body {
   font-family: var(--body-font), sans-serif;
   margin: 0 auto;
   max-width: 65ch;
-  display: flex;
-  flex-direction: column;
   min-height: 100svh;
 }
 
@@ -54,9 +52,6 @@ p > code {
 
 nav > ul {
   list-style-type: none;
-  display: flex;
-  justify-content: space-evenly;
-  text-transform: capitalize;
 }
 
 a {
@@ -70,7 +65,7 @@ p {
 }
 
 blockquote {
-  background-color: var(--green-50);
+  background-color: var(--green-25);
   color: var(--green-900);
   padding-inline: 1rem;
   padding-block: 0.25rem;
@@ -78,6 +73,17 @@ blockquote {
   p {
     margin-block: 0px
   }
+}
+
+//composition
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 // utilities
@@ -103,7 +109,6 @@ blockquote {
 
 
 //blocks
-
 .back-navigation {
   text-align: center;
   margin-top: 1rem;

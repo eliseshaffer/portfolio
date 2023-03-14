@@ -5,7 +5,7 @@
   <%= render "head" , metadata: site.metadata, title: resource.data.title %>
 </head>
 
-<body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
+<body class="flex-column">
   <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
   <main>
