@@ -130,4 +130,8 @@ blockquote {
   input, textarea {
     width: 100%;
   }
+
+  textarea {
+    min-height: 5rem;
+  }
 }
