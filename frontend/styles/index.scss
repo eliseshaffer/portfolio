@@ -124,14 +124,30 @@ blockquote {
 
 .contact-card {
   background-color: var(--green-50);
+  color: var(--green-900);
   display: grid;
   padding: 1rem 2rem;
+  border-radius: 2rem;
 
   input, textarea {
     width: 100%;
+    border-radius: .5rem;
+    border: 0;
+    padding-inline: .5rem;
   }
 
   textarea {
     min-height: 5rem;
+    border-radius: .5rem;
+    border: 0;
   }
+}
+
+.button-primary {
+  background-color: var(--green-900);
+  color: white;
+  border: 0;
+  border-radius: 3rem;
+  padding-block: .25rem;
+  padding-inline: 1rem;
 }
