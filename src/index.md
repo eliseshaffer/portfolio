@@ -22,6 +22,9 @@ In my spare time, I enjoy cycling, climbing, cooking, and reading.
           <%= post.data.title %>
         </a>
       </h3>
+      <em>
+        <%= post.data.date.strftime("%B %-m, %Y") %>
+      </em>
       <p>
         <%= post.summary %>
       </p>
