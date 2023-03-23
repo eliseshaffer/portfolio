@@ -132,6 +132,7 @@ blockquote {
   display: grid;
   padding: 1rem 2rem;
   border-radius: 2rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 
   input, textarea {
     width: 100%;
@@ -139,12 +140,14 @@ blockquote {
     border: 0;
     padding-inline: .5rem;
     padding-block: .25rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   }
 
   textarea {
     min-height: 5rem;
     border-radius: .5rem;
     border: 0;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   }
 }
 
@@ -155,4 +158,5 @@ blockquote {
   border-radius: 3rem;
   padding-block: .25rem;
   padding-inline: 1rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
