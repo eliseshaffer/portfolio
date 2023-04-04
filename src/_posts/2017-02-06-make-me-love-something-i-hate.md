@@ -21,3 +21,4 @@ Then, The Skimm uses some sassy “What to say” questions to tell you everythi
 In a lot of ways, The Skimm is a shining example of how to do an email newsletter right. It starts by understanding its audience. The sections are short and sweet. They know that you’ll be reading it in the morning and they make it easily digestible. It employs the right amount of humor, which helps you wake up while also getting prepared for the day. It’s using one of the worst communication methods ever invented to deliver something so special it elevates the whole of email out of irrelevance.
 
 You might get the impression that I’m swooning from all the hyperbole. But, that’s kind of the point. The Skimm took something I can’t stand and turned it into something I love. If only there were a business that could do that for laundry. My only regret is I that I didn’t write this “review” in an appropriately sassy voice.
+

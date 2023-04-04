@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Thoughts On Javascript"
+title:  Thoughts On Javascript
 date:   2018-02-11
 ---
 
-I’ve seen several threads arguing over JavaScript recently, and it’s starting to get to me. Before I go into my personal feelings about Javascript, I feel compelled to say this:
-We’re stuck with JavaScript.
+I’ve seen several threads arguing over JavaScript recently, and it’s starting to get to me. Before I go into my personal feelings about Javascript, I feel compelled to say this: We’re stuck with JavaScript.
 
 JavaScript, whatever you may think of it, is here to stay. On the client side, it is the only language you can use. Even if you are compelled to use an abstraction language such as CoffeeScript or TypeScript, you cannot escape understanding what is happening underneath that abstraction. This is part of the reason I prefer straight JavaScript over those languages.
 
@@ -24,9 +23,10 @@ The rise of Electron, Nativescript, and React Native means that we get to reuse 
 JavaScript has problems. I still get frustrated by its tooling. I don’t like over-reliance on third party dependencies. The `node_modules` directory makes me hyperventilate. But, it is improving and there are ways to manage it’s pain points, for example:
 
 1. Learn JavaScript. Buy a book and dig deep into JavaScript. There is a Doug Crockford quote that sticks with me: “JavaScript is the only programming language developers don’t think they have to learn before using.” I think that’s a big part of the reason people rail against it. Understanding its quirks and history can help alleviate frustration. I’ve found that my past hatred toward javascript is inversely correlated with how well I understood JavaScript.
-Pick frameworks with big user bases and communities. You can trust Facebook to keep supporting React, Google to keep supporting Angular, and the Vue team to keep supporting Vue.
-2. Pick a JavaScript style and stick to it. If you pick a style of JavaScript that you enjoy and agree with, it won’t be so painful to write. This extends to tooling, testing, etc.
-3. These are only a few suggestions. There are others. JavaScript doesn’t have to be painful to write or use. Try to stick to the good parts.
+2. Pick frameworks with big user bases and communities. You can trust Facebook to keep supporting React, Google to keep supporting Angular, and the Vue team to keep supporting Vue.
+3. Pick a JavaScript style and stick to it. If you pick a style of JavaScript that you enjoy and agree with, it won’t be so painful to write. This extends to tooling, testing, etc.
+
+These are only a few suggestions. There are others. JavaScript doesn’t have to be painful to write or use. Try to stick to the good parts.
 
 JavaScript does have problems, but arguing over them on Hacker News is a waste of energy. There are plenty of things worth arguing over. What programming language is best simply isn’t one of these questions. Because here’s the thing: None of them are best.
 
