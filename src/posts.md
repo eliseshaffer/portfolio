@@ -1,6 +1,6 @@
 ---
 layout: no_header
-title: Blog
+title: The Blog
 paginate:
   collection: posts
   per_page: 5
