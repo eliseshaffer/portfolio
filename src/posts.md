@@ -25,7 +25,7 @@ paginate:
 </ul>
 
 <% if paginator.total_pages > 1 %>
-  <ul class="flex-between no-bullets">
+  <ul class="flex-between no-bullets margin-bottom-2">
     <% if paginator.previous_page %>
       <li>
         <a href="<%= paginator.previous_page_path %>">Prev Page</a>
