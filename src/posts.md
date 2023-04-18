@@ -1,5 +1,5 @@
 ---
-layout: no_header
+layout: breadcrumbs
 title: The Blog
 paginate:
   collection: posts

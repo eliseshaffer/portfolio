@@ -8,9 +8,16 @@
       <a href="/">
         Home
         </a>
+      <% if resource.data.title != "The Blog" %>
+        / <a href="/posts">The Blog</a>
         / <span class="truncate">
           <%= resource.data.title %>
         </span>
+      <% else %>
+        / <span class="truncate">
+          <%= resource.data.title %>
+        </span>
+      <% end %>
     </nav>
 
     <main class="margin-top-4">
