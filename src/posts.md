@@ -6,6 +6,8 @@ paginate:
   per_page: 5
 ---
 
+# The Blog
+
 <ul>
   <% paginator.resources.each do |post| %>
     <article>

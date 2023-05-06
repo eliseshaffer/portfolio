@@ -3,6 +3,8 @@ layout: no_header
 title: Resume
 ---
 
+# Resume
+
 <% collections.jobs.resources.reverse.each do |job| %>
   <article class="job">
     <h3> <%= job.data.company %> </h3>
