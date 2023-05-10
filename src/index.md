@@ -8,7 +8,7 @@ paginate:
 woman living in Longmont, CO.
 
 I've worked in the security, payments, and consumer electronics
-industries. You can view full my [resume here](/resume).
+industries. View my full [resume here](/resume).
 
 I also give talks, develop courses, and blog about various
 topics.
