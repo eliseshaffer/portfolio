@@ -75,7 +75,7 @@ blockquote[type="pull-quote"] {
   border-left: 6px solid var(--green-900);
 }
 
-blockquote[type="note"] {
+blockquote[type="note"], blockquote[type="authors-note"] {
   background-color: var(--green-25);
   color: var(--green-900);
   padding-inline: 1rem;
@@ -89,6 +89,14 @@ blockquote[type="note"] {
 
 blockquote[type="note"]::before {
   content: 'Note';
+  border-bottom: 1px solid var(--light-green-900);
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+blockquote[type="authors-note"]::before {
+  content: "Author's Note";
   border-bottom: 1px solid var(--light-green-900);
   width: 100%;
   display: inline-block;
