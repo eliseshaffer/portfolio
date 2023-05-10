@@ -168,6 +168,7 @@ blockquote {
   }
 
   textarea {
+    resize: vertical;
     min-height: 5rem;
     border-radius: .5rem;
     border: 0;
