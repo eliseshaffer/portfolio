@@ -43,6 +43,10 @@ main {
 }
 
 ul {
+  padding-left: 1rem;
+}
+
+ul.blog-list {
   padding-left: 0;
 }
 
@@ -196,7 +200,4 @@ blockquote {
     font-size: 1rem;
   }
 
-  ul {
-    padding-left: 1rem;
-  }
 }

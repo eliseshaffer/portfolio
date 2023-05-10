@@ -16,7 +16,7 @@ topics.
 In my spare time, I enjoy cycling, climbing, cooking, and reading.
 
 <h2 class="margin-top-2">Latest from <a href="/posts">The Blog</a></h2>
-<ul>
+<ul class="blog-list">
   <% paginator.resources.each do |post| %>
     <article>
       <h3>

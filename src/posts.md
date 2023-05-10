@@ -8,7 +8,7 @@ paginate:
 
 # The Blog
 
-<ul>
+<ul class="blog-list">
   <% paginator.resources.each do |post| %>
     <article>
       <h3>
