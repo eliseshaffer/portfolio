@@ -28,6 +28,7 @@ This is an occasionally updated list of the tech I use.
 > All my computers use the same set of hardware. I plug everything into a USB switch that then has two outputs. One goes the monitor and one goes to the gaming PC. Then the monitor connects to the Gaming PC via DisplayPort and to either laptop via USB-C.
 > 
 > This is a bit quirky because I have to change the output on the USB switch, the input on the monitor, and which laptop the USB-C is plugged into depending on what computer I want to use. But it's been the only real solution since I couldn't find a KVM that let me use VSYNC for games.
+{: type="note" aria-label="note" }
 
 ## Desktop Software
 - I use iTerm for my terminal

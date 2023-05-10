@@ -71,15 +71,28 @@ p {
   margin: 1rem 0;
 }
 
-blockquote {
+blockquote[type="pull-quote"] {
+  border-left: 6px solid var(--green-900);
+}
+
+blockquote[type="note"] {
   background-color: var(--green-25);
   color: var(--green-900);
   padding-inline: 1rem;
-  padding-block: 0.25rem;
+  padding-block: 0.75rem;
+  margin-block: 0.75rem;
 
   p {
-    margin-block: 0px
+    margin-block: 0.5rem;
   }
+}
+
+blockquote[type="note"]::before {
+  content: 'Note';
+  border-bottom: 1px solid var(--light-green-900);
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 0.25rem;
 }
 
 //composition
