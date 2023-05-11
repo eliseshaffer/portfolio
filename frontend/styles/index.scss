@@ -7,14 +7,17 @@
 
   --light-gray-50: #ECEFF1;
   --light-blue-gray-100: #CFD8DC;
-  --green-25: hsl(125, 39%, 94%);
+  --green-25: hsl(125, 39%, 96%);
   --green-50: #E8F5E9;
   --green-400: #66BB6A;
   --green-500: #4CAF50;
   --green-600: #43A047;
   --green-900: #1B5E20;
+  --light-green-50: #F1F8E9;
   --light-green-800: #2E7D32;
   --light-green-900: #1B5E20;
+  --red-50: #FFEBEE;
+  --red-900: #B71C1C;
 }
 
 body {
@@ -75,16 +78,30 @@ blockquote[type="pull-quote"] {
   border-left: 6px solid var(--green-900);
 }
 
-blockquote[type="note"], blockquote[type="authors-note"] {
-  background-color: var(--green-25);
-  color: var(--green-900);
-  padding-inline: 1rem;
-  padding-block: 0.75rem;
-  margin-block: 0.75rem;
-
+blockquote {
   p {
     margin-block: 0.5rem;
   }
+
+  p:only-child {
+    margin-block: 0;
+  }
+}
+
+blockquote[type] {
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  margin-block: 0.75rem;
+}
+
+blockquote[type="note"], blockquote[type="authors-note"] {
+  background-color: var(--green-25);
+  color: var(--green-900);
+}
+
+blockquote[type="warning"] {
+  background-color: var(--red-50);
+  color: var(--red-900);
 }
 
 blockquote[type="note"]::before {

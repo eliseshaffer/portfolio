@@ -30,7 +30,7 @@ I keep a list of the tech I use [here](/uses).
         <%= post.data.date.strftime("%B %-m, %Y") %>
       </em>
       <p>
-        <%= post.summary %>
+        <%= post.content.to_s.strip.lines.reject { |l| l.include? "<blockquote" }.first.to_s.html_safe %>
       </p>
     </article>
     <% end %>
