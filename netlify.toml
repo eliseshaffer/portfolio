@@ -27,7 +27,7 @@
     X-Content-Type-Options = "nosniff"
     Strict-Transport-Security = "max-age=15552000; includeSubDomains"
     Referrer-Policy = "no-referrer-when-downgrade"
-    Cache-Control = "public, max-age=900, s-max-age=900"
+    Cache-Control = "public, max-age=0, s-max-age=0"
 
 [[headers]]
   for = "/"
@@ -41,4 +41,4 @@
 [[headers]]
   for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico|woff2)"
   [headers.values]
-    Cache-Control = "public, max-age=900, s-max-age=900"
+    Cache-Control = "public, max-age=0, s-max-age=0"
