@@ -52,7 +52,7 @@ This is an occasionally updated list of the tech I use.
 - Spotify
 - Overcast
 - [The Storygraph](https://www.thestorygraph.com/) for tracking my reading
-- [YNAB](https://www.ynab.com/)
+- [YNAB](https://www.ynab.com/) for budgeting
 - Apple Maps
 - Strava, Garmin Connect, and Apple Workouts for fitness
 - Calm for meditation (Although, I've started doing more self directed meditation)
