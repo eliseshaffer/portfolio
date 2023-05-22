@@ -2,6 +2,7 @@
 layout: post
 title:  "Google Should Fix Android’s Back Button"
 date:   2017-09-19 
+excerpt: "Now that Google has fixed the location of Android’s battery percentage indicator(a long time pet peeve of mine), it’s time for them to tackle the biggest remaining user interface problem: the back button."
 ---
 
 Now that Google has fixed the location of Android’s battery percentage indicator(a long time pet peeve of mine), it’s time for them to tackle the biggest remaining user interface problem: the back button.

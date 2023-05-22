@@ -2,6 +2,7 @@
 layout: post
 title: Nobody Does It Alone, Jack
 date: 2020-05-06T04:26:42.790Z
+excerpt: "By all accounts I've had an incredibly successful career. I came from a poor family and built a career in one of the highest paying professions in the country. I am incredibly lucky. "
 ---
 By all accounts I've had an incredibly successful career. I came from a poor family and built a career in one of the highest paying professions in the country. I am incredibly lucky. 
 

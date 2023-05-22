@@ -2,6 +2,7 @@
 layout: post
 title: Representation.
 date: 2021-01-04T16:42:21.465Z
+excerpt: "I just finished reading Sovereign, the second book in the Nemesis series and really enjoyed it. I was going to do a review of the book, but after I finished it, I realized that there is something more important to blog about. Instead, I'd like to talk about representation."
 ---
 I just finished reading Sovereign, the second book in the Nemesis series and really enjoyed it. I was going to do a review of the book, but after I finished it, I realized that there is something more important to blog about. Instead, I'd like to talk about representation.
 

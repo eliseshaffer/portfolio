@@ -2,6 +2,7 @@
 layout: post
 title: So Long, Telepath
 date: 2022-09-28
+excerpt: "It feels weird to mourn the loss of a social networking app. I left Facebook in 2017 because the constant flood of Trump news was overwhelming. I left Instagram a few months later because it had drifted so far from fun photo app I’d loved for many years. And recently I deleted TikTok because I found myself, on too many occasions, being lost in scrolling for hours. I stopped using Twitter on my phone because it’s so toxic. So it’s strange to see Telepath, a relatively new social network, shut down and feel anything but relief."
 ---
 
 It feels weird to mourn the loss of a social networking app. I left Facebook in 2017 because the constant flood of Trump news was overwhelming. I left Instagram a few months later because it had drifted so far from fun photo app I’d loved for many years. And recently I deleted TikTok because I found myself, on too many occasions, being lost in scrolling for hours. I stopped using Twitter on my phone because it’s so toxic. So it’s strange to see Telepath, a relatively new social network, shut down and feel anything but relief. 

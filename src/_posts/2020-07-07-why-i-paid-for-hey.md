@@ -2,6 +2,7 @@
 layout: post
 title: Why I Paid For HEY
 date: 2020-07-07T13:45:03.176Z
+excerpt: "I wake up every morning to an inbox that is almost unmanageable. It's overrun with LinkedIn notifications and marketing emails. Email has become a stressful slog that I find myself procrastinating. Prior to the announcement that Basecamp was working on an e-mail service, I had spent a few months trying every email client in the App Store. But, I ultimately kept defaulting back to iOS Mail and macOS mail. So, I was open to trying a new service. "
 ---
 I wake up every morning to an inbox that is almost unmanageable. It's overrun with LinkedIn notifications and marketing emails. Email has become a stressful slog that I find myself procrastinating. Prior to the announcement that Basecamp was working on an e-mail service, I had spent a few months trying every email client in the App Store. But, I ultimately kept defaulting back to iOS Mail and macOS mail. So, I was open to trying a new service. 
 

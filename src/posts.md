@@ -20,7 +20,7 @@ paginate:
         <%= post.data.date.strftime("%B %-m, %Y") %>
       </em>
       <p>
-        <%= post.content.to_s.strip.lines.reject { |l| l.include? "<blockquote" }.first.to_s.html_safe %>
+        <%= post.data.excerpt %>
       </p>
     </article>
   <% end %>

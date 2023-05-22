@@ -2,7 +2,12 @@
 layout: post
 title: Introducing Darklight.nvim
 date: 2023-05-22
+excerpt: "I made my first lua plugin for Neovim! It's called Darklight.nvim and it makes it super simple to switch between dark mode and light mode colorschemes in Neovim."
+banner_image_url: "2023-05-22-darklight-announcement.png"
 ---
+
+![Image of a terminal with two
+colorschemes](/images/2023-05-22-darklight-announcement.png)
 
 I made my first lua plugin for Neovim! It's called [Darklight.nvim](https://github.com/eliseshaffer/darklight.nvim) and it makes it super simple to switch between dark mode and light mode colorschemes in Neovim.
 

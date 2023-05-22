@@ -2,6 +2,7 @@
 layout: post
 title:  "I Am Not A Power User"
 date:   2020-01-26
+excerpt: "My relationship with technology has changed a lot since high school.   I used to be a power user. I preferred desktops to laptops and built them from scratch with parts I bought online."
 ---
 
 My relationship with technology has changed a lot since high school.   I used to be a power user. I preferred desktops to laptops and built them from scratch with parts I bought online.

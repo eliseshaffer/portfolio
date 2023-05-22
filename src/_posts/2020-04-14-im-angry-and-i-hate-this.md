@@ -2,6 +2,7 @@
 layout: post
 title: I'm Angry And I Hate This
 date: 2020-04-14T21:53:31.008Z
+excerpt: "This is going to be much different than my normal blog posts. It's not going to be a fun or thoughtful article. It's going to be emotional and ranty. I want to start out by saying that I know that I'm not alone. That others are feeling these same things. This is not a unique experience. But, I hate this."
 ---
 This is going to be much different than my normal blog posts. It's not going to be a fun or thoughtful article. It's going to be emotional and ranty. I want to start out by saying that I know that I'm not alone. That others are feeling these same things. This is not a unique experience. But, I hate this.
 

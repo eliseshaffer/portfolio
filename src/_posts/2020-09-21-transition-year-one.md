@@ -2,6 +2,7 @@
 layout: post
 title: Transition, Year One
 date: 2020-09-21T18:41:55.907Z
+excerpt: "I sat at my computer on September 16th, staring at the email I’d spent the last week composing. I read over it again as so many feelings washed over me. I was anxious, but excited. My hand hovered over the send button. This was an email I couldn’t take back. I reread the email one final time, took a deep breath, closed my eyes and hit “send.” It was done."
 ---
 I sat at my computer on September 16th, staring at the email I’d spent the last week composing. I read over it again as so many feelings washed over me. I was anxious, but excited. My hand hovered over the send button. This was an email I couldn’t take back. I reread the email one final time, took a deep breath, closed my eyes and hit “send.” It was done.
 

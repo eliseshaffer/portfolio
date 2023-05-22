@@ -2,6 +2,7 @@
 layout: post
 title: "Dreadnought Review: What It Means To Me"
 date: 2020-12-20T16:01:29.410Z
+excerpt: "I’ve been looking for a replacement for Harry Potter on my bookshelf for a little while now. JK Rowling is a horrible transphobe and while I know people want to divorce her from her work, I don’t think that’s possible. The author may be dead, but as long a J.K. Rowling is still alive, she profits from Harry Potter. She uses those profits to increase her platform and advocate against trans people. So, I can’t support the franchise or any of her other work."
 ---
 I’ve been looking for a replacement for Harry Potter on my bookshelf for a little while now. JK Rowling is a horrible transphobe and while I know people want to divorce her from her work, I don’t think that’s possible. The author may be dead, but as long a J.K. Rowling is still alive, she profits from Harry Potter. She uses those profits to increase her platform and advocate against trans people. So, I can’t support the franchise or any of her other work. 
 

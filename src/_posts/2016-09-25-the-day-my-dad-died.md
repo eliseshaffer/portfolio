@@ -2,6 +2,7 @@
 layout: post
 title:  "The Day My Dad Died"
 date:   2016-09-25 06:00:00
+excerpt: "I’ll never forget the day my dad died. It was five days before Christmas, December 25, 1996. I was ten. My mother woke us up and got us ready for school, which was odd because my father usually did this because my mother worked over night."
 ---
 
 I’ll never forget the day my dad died. It was five days before Christmas, December 25, 1996. I was ten. My mother woke us up and got us ready for school, which was odd because my father usually did this because my mother worked over night.

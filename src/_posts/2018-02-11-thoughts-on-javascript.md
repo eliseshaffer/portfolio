@@ -2,6 +2,7 @@
 layout: post
 title:  Thoughts On Javascript
 date:   2018-02-11
+excerpt: "I’ve seen several threads arguing over JavaScript recently, and it’s starting to get to me. Before I go into my personal feelings about Javascript, I feel compelled to say this: We’re stuck with JavaScript."
 ---
 
 I’ve seen several threads arguing over JavaScript recently, and it’s starting to get to me. Before I go into my personal feelings about Javascript, I feel compelled to say this: We’re stuck with JavaScript.

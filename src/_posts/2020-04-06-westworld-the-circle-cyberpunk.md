@@ -2,6 +2,7 @@
 layout: post
 title: Westworld, The Circle, and Modern Cyberpunk
 date: 2020-04-06T00:00:00.000Z
+excerpt: "This weekend,  I got caught up on Westworld. I was pretty nonplussed by the season two finale and wasn't sure if I'd continue watching the show. But the shelter-in-place order has given me more time and I found myself watching the four recent episodes in season three."
 ---
 This weekend,  I got caught up on Westworld. I was pretty nonplussed by the season two finale and wasn't sure if I'd continue watching the show. But the shelter-in-place order has given me more time and I found myself watching the four recent episodes in season three.
 

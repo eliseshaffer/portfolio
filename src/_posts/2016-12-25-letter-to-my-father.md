@@ -2,6 +2,7 @@
 layout: post
 title:  "Letter To My Father"
 date:   2016-12-25  
+excerpt: ""
 ---
 Hi Dad.
 

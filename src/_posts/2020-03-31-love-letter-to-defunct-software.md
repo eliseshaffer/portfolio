@@ -2,6 +2,7 @@
 layout: post
 title: A Love Letter To Defunct Software
 date: 2020-03-31
+excerpt: "I love technology.  There's something exciting about opening up a new product and seeing the thought and care that went into designing it. And it's equally sad to watch a product that speaks to you disappear from the world. What follows is a list of software that is no longer with us, but was still loved."
 ---
 
 I love technology.  There's something exciting about opening up a new product and seeing the thought and care that went into designing it. And it's equally sad to watch a product that speaks to you disappear from the world. What follows is a list of software that is no longer with us, but was still loved.

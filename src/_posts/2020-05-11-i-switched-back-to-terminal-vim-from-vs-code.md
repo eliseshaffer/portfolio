@@ -2,6 +2,7 @@
 layout: post
 title: I Switched Back To Terminal Vim From VS Code
 date: 2020-05-11T20:13:43.322Z
+excerpt: "I'll warn you up front the reason I've switched is superficial and unsatisfying. "
 ---
 I'll warn you up front the reason I've switched is superficial and unsatisfying. 
 

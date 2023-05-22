@@ -2,6 +2,7 @@
 layout: post
 title:  "Make Me Love Something I Hate"
 date:   2017-02-06 06:00:00
+excerpt: "I woke up this morning, like most mornings, to the low buzzing of my Fitbit alarm. I bummed around on my phone for a little while before getting out of bed. Then, I walked to the kitchen and put a kettle of water on for my morning coffee, which I brewed with an Aeropress. Then, I sat down with my phone, sipped my coffee and completed my morning ritual by reading The Skimm."
 ---
 
 I woke up this morning, like most mornings, to the low buzzing of my Fitbit alarm. I bummed around on my phone for a little while before getting out of bed. Then, I walked to the kitchen and put a kettle of water on for my morning coffee, which I brewed with an Aeropress. Then, I sat down with my phone, sipped my coffee and completed my morning ritual by reading The Skimm.

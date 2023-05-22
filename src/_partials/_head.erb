@@ -5,6 +5,14 @@
 
 <meta name="description" content="<%= metadata.description %>" />
 
+<meta property="og:title" content="<%= resource_title %>"/>
+<meta property="og:description" content="<%= resource.data.summary %>" />
+<% if resource.data.banner_image_url %>
+  <meta property="og:image" content="<%= metadata.url %>/images/<%= resource.data.banner_image_url %>" />
+<% end %>
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Elise SHaffer" />
+
 <link rel="stylesheet" href="<%= webpack_path :css %>" />
 <script src="<%= webpack_path :js %>" defer></script>
 <%= live_reload_dev_js %>
