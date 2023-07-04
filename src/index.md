@@ -27,7 +27,7 @@ I keep a list of the tech I use [here](/uses).
         </a>
       </h3>
       <em>
-        <%= post.data.date.strftime("%B %-m, %Y") %>
+        <%= post.data.date.strftime("%B %-d, %Y") %>
       </em>
       <p>
         <%= post.data.excerpt %>

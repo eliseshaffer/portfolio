@@ -17,7 +17,7 @@ paginate:
         </a>
       </h3>
       <em>
-        <%= post.data.date.strftime("%B %-m, %Y") %>
+        <%= post.data.date.strftime("%B %-d, %Y") %>
       </em>
       <p>
         <%= post.data.excerpt %>
