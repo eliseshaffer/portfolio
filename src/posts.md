@@ -20,7 +20,7 @@ paginate:
         <%= post.data.date.strftime("%B %-d, %Y") %>
       </em>
       <p>
-        <%= post.data.excerpt %>
+        <%= post.data.excerpt + ".." %>
       </p>
     </article>
   <% end %>

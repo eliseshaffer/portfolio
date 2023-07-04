@@ -30,7 +30,7 @@ I keep a list of the tech I use [here](/uses).
         <%= post.data.date.strftime("%B %-d, %Y") %>
       </em>
       <p>
-        <%= post.data.excerpt %>
+        <%= post.data.excerpt + ".." %>
       </p>
     </article>
     <% end %>
