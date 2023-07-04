@@ -24,7 +24,7 @@ Enter my second(and current) build.
 
 For this build, I opted for a hot swap board. And I bought the [Durock V2 Stabilizers](https://divinikey.com/products/durock-v2-stabilizers-screw-in?variant=32275866681409). I was looking for a lighter switch and opted for the Zilent 62gs. But, they weren't in stock. So, I bought a temporary switch, the [Halo Drop Clears](https://drop.com/buy/drop-halo-switch-pack?defaultSelectionIds=975863,975868) with the intention to swap them out when the Zilents were back in stock(spoiler alert: I'm not doing that).
 
-When I assembled the board, I was surprised at the feel. I couldn't feel the bump at all. I was sure they'd sent me the wrong switch. So, I decided to take one of the switches apart. There was a bump. I just couldn't feel it, while typing. Over the next week, I was able to pick up the bump, but it was so much softer than I was used to.
+When I assembled the board, I was surprised at the feel. I couldn't feel the bump at all. I was sure they'd sent me the wrong switch. So, I decided to take one of the switches apart. There was a bump. I just couldn't feel it while typing. Over the next week, I was able to pick up the bump. But, it was so much softer than I was used to.
 
 I decided to buy a different switch and figured I'd give linear another shot. After all, this was all a stopgap until I could get the real switch I wanted. I was looking for a budget friendly linear and I picked up the Gateron Milky Yellow Pro. They were pretty cheap at 23 cents per switch and they came pre-lubed so I didn't need to make a big time investment to lube them myself.
 
