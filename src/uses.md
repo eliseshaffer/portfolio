@@ -17,7 +17,7 @@ This is an occasionally updated list of the tech I use.
 - I have a custom built gaming PC
 
 ## Peripherals
-- I use a custom mechanical keyboard made with the Tofu75 Kit(discontinued) and [ZealPC Zilents 67g switches](https://zealpc.net/products/zilent?variant=5894832324646)
+- I use a custom mechanical keyboard made with the [Drop SENSE75](https://drop.com/buy/drop-sense75-barebones-mechanical-keyboard?searchId=ba3c4499c3625e02f9c3622bba48d238&defaultSelectionIds=973431) Kit and [Gateron Milky Yellow Pro](https://divinikey.com/products/gateron-ks-3-milky-yellow-pro-linear-switches)
 - I click things with the Logitech MX Master 2S(discontinued)
 - My monitor is the [LG 38WP85C-W Curved Ultrawide Monitor](https://www.amazon.com/gp/product/B09BP1P4BG)
 - I use an LG webcam
