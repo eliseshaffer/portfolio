@@ -74,6 +74,10 @@ p {
   margin: 1rem 0;
 }
 
+pre {
+  overflow-x: scroll;
+}
+
 blockquote[type="pull-quote"] {
   border-left: 6px solid var(--green-900);
 }
