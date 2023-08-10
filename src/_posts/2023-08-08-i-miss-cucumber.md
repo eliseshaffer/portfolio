@@ -33,7 +33,6 @@ module SignInSteps
       username: 'alice',
       password: 'password'
     )
-    @user = User.create(username: 'alice', password: 'password')
   end
 
   step "the user enters their username" do
