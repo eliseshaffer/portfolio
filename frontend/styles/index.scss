@@ -200,6 +200,27 @@ blockquote[type="authors-note"]::before {
   margin-inline: 2rem;
 }
 
+.blog-list > article {
+  border: 1px solid var(--green-50);
+  padding-inline: 1.5rem;
+  margin-block: 1.5rem;
+  padding-block: 1rem;
+  border-radius: .25rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+  .read-more-link {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    a {
+    border: 1px solid var(--green-500);
+    border-radius: 3rem;
+    padding-block: .25rem;
+    padding-inline: 1rem;
+    }
+  }
+}
+
 .contact-card {
   background-color: var(--green-50);
   color: var(--green-900);
