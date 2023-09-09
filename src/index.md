@@ -4,8 +4,8 @@ paginate:
   collection: posts
   per_page: 3
 ---
-👋🏻 Hey! I'm Elise and I use she/her pronouns. I'm a Rubyist, an engineering manager, and a trans
-woman living in Longmont, CO.
+👋🏻 Hey! I'm Elise and I use she/her pronouns. I'm a Rubyist, an engineering manager, 
+a cyclist, and a trans woman living in Denver, CO.
 
 I've worked in the security, payments, and consumer electronics
 industries. View my full [resume here](/resume).
