@@ -14,10 +14,28 @@
   --green-600: #43A047;
   --green-900: #1B5E20;
   --light-green-50: #F1F8E9;
+  --light-green-500: #8BC34A;
   --light-green-800: #2E7D32;
   --light-green-900: #1B5E20;
   --red-50: #FFEBEE;
   --red-900: #B71C1C;
+  --bg-body: #FAFAFA;
+  --fg-body: #212121;
+  --bg-contact-card: var(--green-50);
+  --fg-contact-card: var(--green-900);
+  --bg-button-primary: var(--green-900);
+  --fg-button-primary: var(--green-50);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-body: #212121;
+    --fg-body: #FAFAFA;
+    --bg-contact-card: var(--green-400);
+    --fg-contact-card: var(--bg-body);
+    --bg-button-primary: var(--bg-body);
+    --fg-button-primary: #FAFAFA;
+  }
 }
 
 body {
@@ -27,6 +45,8 @@ body {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
+  background-color: var(--bg-body);
+  color: var(--fg-body);
 }
 
 header {
@@ -201,12 +221,16 @@ blockquote[type="authors-note"]::before {
 }
 
 .contact-card {
-  background-color: var(--green-50);
-  color: var(--green-900);
+  background-color: var(--bg-contact-card);
+  color: var(--fg-contact-card);
   display: grid;
   padding: 1rem 2rem;
   border-radius: 2rem;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+  h2 {
+    color: var(--fg-contact-card);
+  }
 
   input, textarea {
     width: 100%;
@@ -227,8 +251,8 @@ blockquote[type="authors-note"]::before {
 }
 
 .button-primary {
-  background-color: var(--green-900);
-  color: white;
+  background-color: var(--bg-button-primary);
+  color: var(--fg-button-primary);
   border: 0;
   border-radius: 3rem;
   padding-block: .25rem;
