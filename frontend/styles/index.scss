@@ -213,10 +213,15 @@ blockquote[type="authors-note"]::before {
     margin-top: 2rem;
     margin-bottom: .5rem;
     a {
-    border: 1px solid var(--green-500);
-    border-radius: 3rem;
-    padding-block: .25rem;
-    padding-inline: 1rem;
+      border: 1px solid var(--green-500);
+      border-radius: 3rem;
+      padding-block: .25rem;
+      padding-inline: 1rem;
+
+      &:hover {
+        background-color: var(--green-400);
+        color: var(--green-50);
+      }
     }
   }
 }

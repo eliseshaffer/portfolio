@@ -23,7 +23,7 @@ paginate:
         <%= post.data.excerpt + ".." %>
       </p>
       <div class="read-more-link">
-          <a href="<%= post.relative_url %>">Read More...</a>
+          <a href="<%= post.relative_url %>">Read More</a>
       </div>
     </article>
   <% end %>
