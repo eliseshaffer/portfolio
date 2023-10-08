@@ -13,7 +13,6 @@ This is an occasionally updated list of the tech I use.
 
 ## Computers
 - My personal laptop is a 14inch MacBook Pro with the M1 Pro processor
-- My work laptop is a 16inch Intel MacBook Pro
 - I have a custom built gaming PC
 
 ## Peripherals
