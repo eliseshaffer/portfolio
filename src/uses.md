@@ -33,7 +33,7 @@ This is an occasionally updated list of the tech I use.
 
 ## Desktop Software
 - I use iTerm for my terminal
-- Neovim is my editor of choice. I've tried various editors including those with "Vim Modes," but I keep coming back to Neovim. You can see more of my config in my [dotfiles](https://gitlab.com/eliseshaffer/dotfiles)
+- Neovim is my editor of choice. I've tried various editors including those with "Vim Modes," but I keep coming back to Neovim. You can see more of my config in my [dotfiles](https://github.com/eliseshaffer/dotfiles)
 - My colorscheme is [Catppuccin](https://github.com/catppuccin/nvim). I switch between the Macchiato and Latte themes.
 - I use [RapidAPI](https://paw.cloud/) for API testing
 - My favorite database client is [SQL Pro Studio](https://www.sqlprostudio.com/).
