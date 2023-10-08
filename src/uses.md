@@ -50,8 +50,8 @@ This is an occasionally updated list of the tech I use.
 - Sony a6000 camera
 
 # Important Apps
-- Spotify
-- Overcast
+- Spotify for music
+- Overcast for podcast
 - [The Storygraph](https://www.thestorygraph.com/) for tracking my reading
 - [YNAB](https://www.ynab.com/) for budgeting
 - Apple Maps
