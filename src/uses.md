@@ -40,7 +40,7 @@ This is an occasionally updated list of the tech I use.
 
 # Gadgets
 - iPad Air 4th Gen
-- iPhone 13 Mini
+- iPhone 15 Pro
 - Apple Watch Series 8
 - Airpods 3
 - Airpods Max
