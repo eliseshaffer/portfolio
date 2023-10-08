@@ -41,11 +41,11 @@ This is an occasionally updated list of the tech I use.
 - [Obsidian](https://obsidian.md/) is my goto note taking app and is also becoming my task manager.
 
 # Gadgets
-- iPad Air 4th Gen
 - iPhone 15 Pro
 - Apple Watch Series 8
 - Airpods 3
 - Airpods Max
+- iPad Air 4th Gen
 - Garmin Edge Explore 2 cycling computer
 - Sony a6000 camera
 
