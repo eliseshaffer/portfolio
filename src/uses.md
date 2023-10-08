@@ -20,6 +20,8 @@ This is an occasionally updated list of the tech I use.
 - I click things with the [Logitech MX Master 3S](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006558.html)
 - My monitor is the [LG 38WP85C-W Curved Ultrawide Monitor](https://www.amazon.com/gp/product/B09BP1P4BG)
 - I use an LG webcam
+
+## Recording
 - [AudioTechnica AT2040 Microphone](https://www.amazon.com/gp/product/B09BFPNW2J)
 - [Elgato Microphone Arm](https://www.amazon.com/gp/product/B09737ZXMK)
 - [Focusrite Scarlet Solo](https://www.amazon.com/gp/product/B01E6T56CM)
