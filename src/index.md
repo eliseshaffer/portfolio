@@ -15,7 +15,7 @@ industries. View my full [resume here](/resume).
 I also give talks, develop courses, and blog about various
 topics.
 
-In my spare time, I enjoy cycling, climbing, cooking, and reading.
+In my spare time, I enjoy cycling, cooking, and reading.
 
 I keep a list of the tech I use [here](/uses).
 
