@@ -26,11 +26,6 @@ This is an occasionally updated list of the tech I use.
 - [Elgato Microphone Arm](https://www.amazon.com/gp/product/B09737ZXMK)
 - [Focusrite Scarlet Solo](https://www.amazon.com/gp/product/B01E6T56CM)
 
-> All my computers use the same set of hardware. I plug everything into a USB switch that then has two outputs. One goes the monitor and one goes to the gaming PC. Then the monitor connects to the Gaming PC via DisplayPort and to either laptop via USB-C.
-> 
-> This is a bit quirky because I have to change the output on the USB switch, the input on the monitor, and which laptop the USB-C is plugged into depending on what computer I want to use. But it's been the only real solution since I couldn't find a KVM that let me use VSync for games.
-{: type="note" aria-label="note" }
-
 ## Desktop Software
 - I use iTerm for my terminal
 - Neovim is my editor of choice. I've tried various editors including those with "Vim Modes," but I keep coming back to Neovim. You can see more of my config in my [dotfiles](https://github.com/eliseshaffer/dotfiles)
