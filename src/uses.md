@@ -12,8 +12,8 @@ This is an occasionally updated list of the tech I use.
 - My desk is the [Fully Jarvis Bamboo Desk](https://store.hermanmiller.com/standing-desks/jarvis-bamboo-standing-desk/2542428.html?lang=en_US)
 
 ## Computers
-- I use a 14inch MacBook Pro with the M1 Pro processor for coding, productivity, etc
-- I have a custom built gaming PC with a Ryzen 3600 and a GeForce RTX 3060 Ti
+- I use a 14inch MacBook Pro with the M1 Pro processor as my main computer
+- I have a custom gaming PC with a Ryzen 3600 and a GeForce RTX 3060 Ti
 
 ## Peripherals
 - I use a custom mechanical keyboard made with the [Drop SENSE75](https://drop.com/buy/drop-sense75-barebones-mechanical-keyboard?searchId=ba3c4499c3625e02f9c3622bba48d238&defaultSelectionIds=973431) Kit and [Gateron Milky Yellow Pro](https://divinikey.com/products/gateron-ks-3-milky-yellow-pro-linear-switches) switches.
