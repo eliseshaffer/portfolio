@@ -242,13 +242,12 @@ blockquote[type="authors-note"]::before {
 }
 
 .job {
-  h3 {
+  h2 {
     color: var(--green-600);
   }
 
-  h4 {
+  h3 {
     font-weight: semibold;
-    font-size: 1rem;
   }
 
 }

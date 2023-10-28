@@ -12,11 +12,11 @@ paginate:
   <% paginator.resources.each do |post| %>
     <li>
       <article>
-        <h3>
+        <h2>
           <a href="<%= post.relative_url %>">
             <%= post.data.title %>
           </a>
-        </h3>
+        </h2>
         <em>
           <%= post.data.date.strftime("%B %-d, %Y") %>
         </em>
