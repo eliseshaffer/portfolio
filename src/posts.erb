@@ -10,19 +10,21 @@ paginate:
 
 <ul class="blog-list">
   <% paginator.resources.each do |post| %>
-    <article>
-      <h3>
-        <a href="<%= post.relative_url %>">
-          <%= post.data.title %>
-        </a>
-      </h3>
-      <em>
-        <%= post.data.date.strftime("%B %-d, %Y") %>
-      </em>
-      <p>
-        <%= post.data.excerpt + ".." %>
-      </p>
-    </article>
+    <li>
+      <article>
+        <h3>
+          <a href="<%= post.relative_url %>">
+            <%= post.data.title %>
+          </a>
+        </h3>
+        <em>
+          <%= post.data.date.strftime("%B %-d, %Y") %>
+        </em>
+        <p>
+          <%= post.data.excerpt + ".." %>
+        </p>
+      </article>
+    </li>
   <% end %>
 </ul>
 
