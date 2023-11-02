@@ -1,4 +1,4 @@
-import "index.scss"
+import "index.css"
 import "syntax-highlighting.css"
 import * as Turbo from "@hotwired/turbo"
 import { Application } from "@hotwired/stimulus"
