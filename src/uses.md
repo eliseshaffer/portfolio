@@ -35,7 +35,7 @@ This is an occasionally updated list of the tech I use.
 - My primary browser is Arc on Mac, and Firefox on Windows. I previously used Safari for personal stuff and Chrome for development. 
 - [Obsidian](https://obsidian.md/) is my goto note taking app and is also becoming my task manager.
 
-# Gadgets
+## Gadgets
 - iPhone 15 Pro
 - Apple Watch Series 8
 - Airpods 3
@@ -44,7 +44,7 @@ This is an occasionally updated list of the tech I use.
 - Garmin Edge Explore 2 cycling computer
 - Sony a6000 camera
 
-# Important Apps
+## Important Apps
 - Spotify for music
 - Overcast for podcast
 - [The Storygraph](https://www.thestorygraph.com/) for tracking my reading
