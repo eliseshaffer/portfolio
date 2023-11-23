@@ -6,6 +6,7 @@
 :root {
   --title-font: "Inter";
   --body-font: "Inter";
+  --color-primary: var(--purple-7);
 
   --light-gray-50: #ECEFF1;
   --light-blue-gray-100: #CFD8DC;
@@ -29,6 +30,14 @@ body {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
+}
+
+h1 {
+  /* color: var(--color-primary); */
+  color: transparent;
+  display: inline-block;
+  background: linear-gradient(90deg, var(--purple-7) 0%, var(--purple-7) 35%, var(--violet-5) 100%);
+  background-clip: text;
 }
 
 header {
@@ -72,7 +81,7 @@ nav > ul {
 
 a {
   text-decoration: none;
-  color: var(--green-500);
+  color: var(--color-primary);
   font-weight: 500;
 }
 
@@ -84,11 +93,9 @@ pre {
   overflow-x: scroll;
 }
 
-blockquote[type="pull-quote"] {
-  border-left: 6px solid var(--green-900);
-}
-
 blockquote {
+  display: grid;
+  
   & p {
     margin-block: 0.5rem;
   }
@@ -98,37 +105,49 @@ blockquote {
   }
 }
 
-blockquote[type] {
-  padding-inline: 1rem;
-  padding-block: 0.75rem;
-  margin-block: 0.75rem;
+blockquote::before:empty {
+  content: "";
+  float: left;
+  background: var(--gradient-2);
+  width: 5px;
+  margin-right: 1em;
+  top: 0px;
+  bottom: 0px;
 }
 
-blockquote[type="note"], blockquote[type="authors-note"] {
-  background-color: var(--green-25);
-  color: var(--green-900);
-}
 
-blockquote[type="warning"] {
-  background-color: var(--red-50);
-  color: var(--red-900);
-}
-
-blockquote[type="note"]::before {
-  content: 'Note';
-  border-bottom: 1px solid var(--light-green-900);
-  width: 100%;
-  display: inline-block;
-  margin-bottom: 0.25rem;
-}
-
-blockquote[type="authors-note"]::before {
-  content: "Author's Note";
-  border-bottom: 1px solid var(--light-green-900);
-  width: 100%;
-  display: inline-block;
-  margin-bottom: 0.25rem;
-}
+/* blockquote[type] { */
+/*   padding-inline: 1rem; */
+/*   padding-block: 0.75rem; */
+/*   margin-block: 0.75rem; */
+/* } */
+/**/
+/* blockquote[type="note"], blockquote[type="authors-note"] { */
+/*   background-color: var(--green-25); */
+/*   color: var(--green-900); */
+/**/
+/* } */
+/**/
+/* blockquote[type="warning"] { */
+/*   background-color: var(--red-50); */
+/*   color: var(--red-900); */
+/* } */
+/**/
+/* blockquote[type="note"]::before { */
+/*   content: 'Note'; */
+/*   border-bottom: 1px solid var(--light-green-900); */
+/*   width: 100%; */
+/*   display: inline-block; */
+/*   margin-bottom: 0.25rem; */
+/* } */
+/**/
+/* blockquote[type="authors-note"]::before { */
+/*   content: "Author's Note"; */
+/*   border-bottom: 1px solid var(--light-green-900); */
+/*   width: 100%; */
+/*   display: inline-block; */
+/*   margin-bottom: 0.25rem; */
+/* } */
 
 /*  composition  */
 .flex-column {
@@ -168,11 +187,11 @@ blockquote[type="authors-note"]::before {
 }
 
 .text-green {
-  color: var(--green-500);
+  color: var(--purple-7);
 }
 
 .text-dark-green {
-  color: var(--green-900);
+  color: var(--purple-10);
 }
 
 .text-black {
@@ -207,8 +226,8 @@ blockquote[type="authors-note"]::before {
 }
 
 .contact-card {
-  background-color: var(--green-50);
-  color: var(--green-900);
+  background-color: var(--purple-0);
+  color: var(--purple-10);
   display: grid;
   padding: 1rem 2rem;
   border-radius: 2rem;
@@ -233,7 +252,7 @@ blockquote[type="authors-note"]::before {
 }
 
 .button-primary {
-  background-color: var(--green-900);
+  background-color: var(--purple-10);
   color: white;
   border: 0;
   border-radius: 3rem;
