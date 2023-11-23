@@ -6,8 +6,8 @@
 :root {
   --title-font: "Inter";
   --body-font: "Inter";
-  --color-primary: var(--violet-7);
-  --gradient-primary: linear-gradient(215deg, var(--violet-5) 0%, var(--violet-7) 35%, var(--purple-7) 100%);
+  --color-primary: var(--purple-7);
+  --gradient-primary: linear-gradient(215deg, var(--violet-6) 0%, var(--violet-8) 35%, var(--purple-7) 100%);
   --gradient-secondary: linear-gradient(215deg, var(--violet-2) 0%, var(--violet-1) 35%, var(--purple-0) 100%);
 
   --light-gray-50: #ECEFF1;
@@ -35,10 +35,17 @@ body {
 }
 
 h1 {
-  /* color: var(--color-primary); */
   color: transparent;
   background: var(--gradient-primary);
   background-clip: text;
+}
+
+h2, h2 > a {
+  color: var(--purple-7);
+}
+
+h3 {
+  color: var(--violet-7);
 }
 
 header {
@@ -70,10 +77,9 @@ ul.blog-list {
 }
 
 p > code {
-  background-color: var(--light-gray-50);
-  padding-inline: .5rem;
-  padding-block: 0.1125rem;
-  border-radius: 0.25rem;
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 nav > ul {
@@ -83,6 +89,9 @@ nav > ul {
 a {
   color: var(--color-primary);
   text-decoration: none;
+  color: transparent;
+  background: var(--gradient-primary);
+  background-clip: text;
 }
 
 p > a {
@@ -122,40 +131,6 @@ blockquote::before:empty {
   top: 0px;
   bottom: 0px;
 }
-
-
-/* blockquote[type] { */
-/*   padding-inline: 1rem; */
-/*   padding-block: 0.75rem; */
-/*   margin-block: 0.75rem; */
-/* } */
-/**/
-/* blockquote[type="note"], blockquote[type="authors-note"] { */
-/*   background-color: var(--green-25); */
-/*   color: var(--green-900); */
-/**/
-/* } */
-/**/
-/* blockquote[type="warning"] { */
-/*   background-color: var(--red-50); */
-/*   color: var(--red-900); */
-/* } */
-/**/
-/* blockquote[type="note"]::before { */
-/*   content: 'Note'; */
-/*   border-bottom: 1px solid var(--light-green-900); */
-/*   width: 100%; */
-/*   display: inline-block; */
-/*   margin-bottom: 0.25rem; */
-/* } */
-/**/
-/* blockquote[type="authors-note"]::before { */
-/*   content: "Author's Note"; */
-/*   border-bottom: 1px solid var(--light-green-900); */
-/*   width: 100%; */
-/*   display: inline-block; */
-/*   margin-bottom: 0.25rem; */
-/* } */
 
 /*  composition  */
 .flex-column {
@@ -232,8 +207,9 @@ blockquote::before:empty {
 /*  blocks  */
 .back-navigation {
   text-align: center;
+  font-weight: var(--font-weight-6);
+  font-size: var(--font-size-1);
   margin-top: 1rem;
-  white-space: nowrap;
   margin-inline: 2rem;
 }
 
@@ -274,12 +250,12 @@ blockquote::before:empty {
 }
 
 .job {
-  & h2 {
-    color: var(--color-primary);
-  }
+  /* & h2 { */
+  /*   color: var(--color-primary); */
+  /* } */
 
-  & h3 {
-    font-weight: semibold;
-  }
+  /* & h3 { */
+  /*   font-weight: semibold; */
+  /* } */
 
 }
