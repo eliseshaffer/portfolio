@@ -37,7 +37,6 @@ body {
 h1 {
   /* color: var(--color-primary); */
   color: transparent;
-  display: inline-block;
   background: var(--gradient-primary);
   background-clip: text;
 }
@@ -82,12 +81,17 @@ nav > ul {
 }
 
 a {
+  color: var(--color-primary);
   text-decoration: none;
+}
+
+p > a {
   color: transparent;
   background: var(--gradient-primary);
   background-clip: text;
   font-weight: 500;
 }
+
 
 p {
   margin: 1rem 0;
@@ -271,7 +275,7 @@ blockquote::before:empty {
 
 .job {
   & h2 {
-    color: var(--green-600);
+    color: var(--color-primary);
   }
 
   & h3 {
