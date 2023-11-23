@@ -5,19 +5,9 @@
   </head>
   <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
     <nav class="back-navigation truncate margin-top-2 text-muted">
-      <a href="/">
-        Home
+      <a href="/" class="back-nav">
+        Elise Shaffer
         </a>
-      <% if resource.data.title != "The Blog" %>
-        / <a href="/posts">The Blog</a>
-        / <span class="truncate">
-          <%= resource.data.title %>
-        </span>
-      <% else %>
-        / <span class="truncate">
-          <%= resource.data.title %>
-        </span>
-      <% end %>
     </nav>
 
     <main class="margin-top-4">
