@@ -6,7 +6,9 @@
 :root {
   --title-font: "Inter";
   --body-font: "Inter";
-  --color-primary: var(--purple-7);
+  --color-primary: var(--violet-7);
+  --gradient-primary: linear-gradient(215deg, var(--violet-5) 0%, var(--violet-7) 35%, var(--purple-7) 100%);
+  --gradient-secondary: linear-gradient(215deg, var(--violet-2) 0%, var(--violet-1) 35%, var(--purple-0) 100%);
 
   --light-gray-50: #ECEFF1;
   --light-blue-gray-100: #CFD8DC;
@@ -36,7 +38,7 @@ h1 {
   /* color: var(--color-primary); */
   color: transparent;
   display: inline-block;
-  background: linear-gradient(90deg, var(--purple-7) 0%, var(--purple-7) 35%, var(--violet-5) 100%);
+  background: var(--gradient-primary);
   background-clip: text;
 }
 
@@ -81,7 +83,9 @@ nav > ul {
 
 a {
   text-decoration: none;
-  color: var(--color-primary);
+  color: transparent;
+  background: var(--gradient-primary);
+  background-clip: text;
   font-weight: 500;
 }
 
@@ -187,7 +191,7 @@ blockquote::before:empty {
 }
 
 .text-green {
-  color: var(--purple-7);
+  color: var(--violet-7);
 }
 
 .text-primary {
@@ -195,7 +199,7 @@ blockquote::before:empty {
 }
 
 .text-dark-green {
-  color: var(--purple-10);
+  color: var(--violet-9);
 }
 
 .text-black {
@@ -230,8 +234,8 @@ blockquote::before:empty {
 }
 
 .contact-card {
-  background-color: var(--purple-0);
-  color: var(--purple-10);
+  background: var(--gradient-secondary);
+  color: var(--violet-7);
   display: grid;
   padding: 1rem 2rem;
   border-radius: 2rem;
@@ -256,7 +260,7 @@ blockquote::before:empty {
 }
 
 .button-primary {
-  background-color: var(--purple-10);
+  background: var(--gradient-primary);
   color: white;
   border: 0;
   border-radius: 3rem;
