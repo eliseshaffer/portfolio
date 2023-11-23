@@ -190,6 +190,10 @@ blockquote::before:empty {
   color: var(--purple-7);
 }
 
+.text-primary {
+  color: var(--color-primary);
+}
+
 .text-dark-green {
   color: var(--purple-10);
 }
