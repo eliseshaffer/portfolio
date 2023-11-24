@@ -60,8 +60,12 @@ header {
 footer {
   margin-block: 3rem 2rem;
   text-align: center;
-  color: var(--gray-6);
+  color: transparent;
   font-size: var(--font-size-1);
+  background: var(--gradient-primary);
+  margin-inline: auto;
+  width: auto;
+  background-clip: text;
 }
 
 main {
