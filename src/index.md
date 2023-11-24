@@ -1,18 +1,19 @@
 ---
-layout: home
+layout: default
 paginate:
   collection: posts
   per_page: 3
 ---
 
-👋🏻 Hey! I'm Elise and I use she/her pronouns. I'm a Rubyist, cyclist, and 
-trans woman living in Denver, CO. 
+# Elise Shaffer
 
-I'm the host of [The Ruby On Rails Podcast](https://www.therubyonrailspodcast.com/).
+I use she/her pronouns. I'm a programmer, podcaster, and trans woman living in 
+Denver, CO. 
 
-I've worked in the security, payments, and consumer electronics
-industries. View my full [resume here](/resume).
+I've worked in web development for 14 years and I have extensive experience 
+with Ruby on Rails. I host 
+[The Ruby on Rails Podcast](https://www.therubyonrailspodcast.com/), a weekly 
+conversation about topics relevant to the Rails community. 
 
-In my spare time, I enjoy cycling, cooking, and reading.
-
-I keep a list of the tech I use [here](/uses).
+I love working on products that make people's lives better. I've worked in the 
+computer security, subscriptions billing, and consumer electronics industries. 
