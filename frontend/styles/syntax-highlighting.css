@@ -98,13 +98,12 @@ pre.highlight {
 .highlight .vi { color: var(--ctp-macchiato-sky) } /* Name.Variable.Instance */
 .highlight .il { color: var(--ctp-macchiato-peach) } /* Literal.Number.Integer.Long */
 
-@media (width >= 768px) {
+@media (width >= 95ch) {
   div.highlighter-rouge {
-    margin-inline: -3rem;
     border-radius: var(--radius-3);
   }
   pre.highlight {
     /* margin-inline: -1rem; */
-    padding-inline: 3rem;
+    padding-inline: 1.5rem;
   }
 }
