@@ -6,24 +6,17 @@ paginate:
   per_page: 10
 ---
 
-<h1>The Blog</h1>
+<h1>Writing</h1>
 
 <ul class="blog-list">
   <% paginator.resources.each do |post| %>
     <li>
-      <article>
-        <h2>
-          <a href="<%= post.relative_url %>">
-            <%= post.data.title %>
-          </a>
-        </h2>
-        <em>
-          <%= post.data.date.strftime("%B %-d, %Y") %>
-        </em>
-        <p>
-          <%= post.data.excerpt + ".." %>
-        </p>
-      </article>
+      <a href="<%= post.relative_url %>">
+        <%= post.data.title %>
+      </a>
+      <span class="publish-date">
+        <%= post.data.date.strftime("%b %-d, %Y") %>
+      </span>
     </li>
   <% end %>
 </ul>

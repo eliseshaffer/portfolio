@@ -6,10 +6,15 @@
 </head>
 
 <body class="flex-column">
-  <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
-
   <main>
     <%= yield %>
+    <section class="bottom-links">
+      <a href="/resume">Work</a>
+      <a href="/uses">Tech</a>
+      <a href="/posts">Writing</a>
+      <a href="https://github.com/eliseshaffer" class="margin-top-2">Github</a>
+      <a href="mailto://elise.shaffer@hey.com">Email</a>
+    </section>
   </main>
 
   <%= render "footer" , metadata: site.metadata %>
