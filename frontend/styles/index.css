@@ -93,10 +93,12 @@ ul.blog-list {
     margin-block: var(--size-1);
 
     & > a {
+      display: inline;
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
       grid-column: title;
+      width: min(100%, max-content);
     }
 
     & > span {
