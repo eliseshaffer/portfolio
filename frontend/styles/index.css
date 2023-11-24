@@ -2,31 +2,21 @@
 @import "reset.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Satisfy&display=swap');
 
 :root {
-  --title-font: "Inter";
+  --title-font: "Domine";
   --body-font: "Inter";
   --color-primary: var(--purple-7);
   --gradient-primary: linear-gradient(215deg, var(--violet-6) 0%, var(--violet-8) 35%, var(--purple-7) 100%);
+  --gradient-primary-reverse: linear-gradient(55deg, var(--violet-6) 0%, var(--violet-8) 35%, var(--purple-7) 100%);
   --gradient-secondary: linear-gradient(215deg, var(--violet-2) 0%, var(--violet-1) 35%, var(--purple-0) 100%);
-
-  --light-gray-50: #ECEFF1;
-  --light-blue-gray-100: #CFD8DC;
-  --green-25: hsl(125, 39%, 96%);
-  --green-50: #E8F5E9;
-  --green-400: #66BB6A;
-  --green-500: #4CAF50;
-  --green-600: #43A047;
-  --green-900: #1B5E20;
-  --light-green-50: #F1F8E9;
-  --light-green-800: #2E7D32;
-  --light-green-900: #1B5E20;
-  --red-50: #FFEBEE;
-  --red-900: #B71C1C;
 }
 
 body {
   font-family: var(--body-font), sans-serif;
+  background: var(--gray-0);
+  color: var(--gray-12);
   margin: 0 auto;
   max-width: 65ch;
   min-height: 100svh;
@@ -35,14 +25,28 @@ body {
 }
 
 h1 {
+  font-family: var(--title-font), sans-serif;
+  font-weight: 400;
+
   color: transparent;
   background: var(--gradient-primary);
   background-clip: text;
 }
 
-h2, h2 > a {
+h2 {
   color: var(--purple-7);
+  & a {
+    color: var(--violet-7);
+  }
+  & a:hover {
+    color: var(--purple-7);
+  }
 }
+
+/* ::selection { */
+/*   background: var(--violet-1); */
+/*   color: var(--gray-12); */
+/* } */
 
 h3 {
   color: var(--violet-7);
@@ -56,12 +60,18 @@ header {
 footer {
   margin-block: 3rem 2rem;
   text-align: center;
+  color: var(--gray-6);
+  font-size: var(--font-size-1);
 }
 
 main {
   max-width: 65ch;
   margin: 0 1rem;
   flex-grow: 1;
+}
+
+label {
+  font-weight: var(--font-weight-5);
 }
 
 ul {
@@ -101,6 +111,9 @@ p > a {
   font-weight: 500;
 }
 
+a:hover {
+    color: var(--purple-7);
+  }
 
 p {
   margin: 1rem 0;
@@ -185,10 +198,6 @@ blockquote::before:empty {
   color: black;
 }
 
-.text-muted {
-  color: var(--light-blue-gray-100);
-}
-
 .truncate {
   text-overflow: ellipsis;
   overflow: hidden;
@@ -240,7 +249,7 @@ blockquote::before:empty {
 }
 
 .button-primary {
-  background: var(--gradient-primary);
+  background: var(--gradient-primary-reverse);
   color: white;
   border: 0;
   border-radius: 3rem;
