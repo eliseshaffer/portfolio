@@ -273,7 +273,7 @@ blockquote::before:empty {
 
   & a {
     font-size: var(--font-size-3);
-    display: inline;
+    width: fit-content;
   }
 }
 
