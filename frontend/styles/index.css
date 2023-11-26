@@ -98,7 +98,7 @@ ul.blog-list {
       white-space: nowrap;
       overflow: hidden;
       grid-column: title;
-      width: min(100%, max-content);
+      max-width: fit-content;
     }
 
     & > span {
