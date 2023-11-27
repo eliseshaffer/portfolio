@@ -165,6 +165,9 @@ pre {
 
 blockquote {
   display: grid;
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
   
   & p {
     margin-block: 0.5rem;
@@ -175,10 +178,11 @@ blockquote {
   }
 }
 
-blockquote::before:empty {
+blockquote::before {
   content: "";
   float: left;
-  background: var(--gradient-2);
+  position: absolute;
+  background: var(--gradient-primary);
   width: 5px;
   margin-right: 1em;
   top: 0px;
@@ -222,7 +226,7 @@ blockquote::before:empty {
   padding-left: 0;
 }
 
-.text-green {
+.text-green, .text-violet {
   color: var(--violet-7);
 }
 
