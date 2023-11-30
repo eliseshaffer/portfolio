@@ -11,7 +11,7 @@
   --gradient-primary: linear-gradient(215deg, var(--violet-6) 0%, var(--violet-8) 35%, var(--purple-7) 100%);
   --gradient-primary-reverse: linear-gradient(55deg, var(--violet-6) 0%, var(--violet-8) 35%, var(--purple-7) 100%);
   --gradient-secondary: linear-gradient(190deg, var(--violet-1) 0%, var(--violet-0) 35%, var(--purple-0) 100%);
-  --gradient-secondary-topdown: linear-gradient(225deg, var(--violet-2) 0%, var(--violet-1) 35%, var(--purple-1) 100%);
+  --gradient-secondary-reverse: linear-gradient(320deg, var(--violet-1) 0%, var(--violet-0) 35%, var(--purple-0) 100%);
   --content-width: min(65ch, 90%);
 }
 
@@ -53,7 +53,7 @@ header {
 }
 
 footer {
-  background: var(--gradient-secondary);
+  background: var(--gradient-secondary-reverse);
   width: 100%;
   margin-block-start: var(--size-10);
   
