@@ -11,14 +11,14 @@
   --gradient-primary: linear-gradient(215deg, var(--violet-6) 0%, var(--violet-8) 35%, var(--purple-7) 100%);
   --gradient-primary-reverse: linear-gradient(55deg, var(--violet-6) 0%, var(--violet-8) 35%, var(--purple-7) 100%);
   --gradient-secondary: linear-gradient(190deg, var(--violet-1) 0%, var(--violet-0) 35%, var(--purple-0) 100%);
+  --gradient-secondary-topdown: linear-gradient(225deg, var(--violet-2) 0%, var(--violet-1) 35%, var(--purple-1) 100%);
+  --content-width: min(65ch, 90%);
 }
 
 body {
   font-family: var(--body-font), sans-serif;
   background: var(--gray-0);
   color: var(--gray-12);
-  margin: 0 auto;
-  max-width: 65ch;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -48,12 +48,37 @@ h3 {
 }
 
 header {
-  margin-block: 2rem 1rem;
+  margin-block: var(--size-7) var(--size-3);
   text-align: center;
 }
 
 footer {
-  margin-block: 3rem 2rem;
+  background: var(--gradient-secondary);
+  width: 100%;
+  margin-block-start: var(--size-10);
+  
+  & .footer-flow {
+    margin: 0 auto;
+    width: var(--content-width);
+    display: grid;
+    grid-template-columns: [footer-start] repeat(8, 1fr) [footer-end];
+    gap: min(1rem, 1%);
+    grid-template-rows: repeat(2, fit-content);
+
+    & section.site-links {
+      display: grid !important;
+      list-style-type: none;
+      grid-template-columns: subgrid;
+      grid-template-rows: 1fr;
+      grid-column: footer;
+      text-align: center;
+      margin-block-start: var(--size-5);
+    }
+  }
+}
+
+.attribution {
+  margin-block: var(--size-7) var(--size-5);
   text-align: center;
   color: transparent;
   font-size: var(--font-size-1);
@@ -61,11 +86,14 @@ footer {
   margin-inline: auto;
   width: auto;
   background-clip: text;
+  grid-row: 2/3;
+  grid-column: footer;
 }
 
 main {
-  max-width: 65ch;
-  margin: 0 1rem;
+  max-width: min(65ch, 90%);
+  width: 100%;
+  margin: 0 auto;
   margin-top: var(--size-12);
   flex-grow: 1;
 }
@@ -75,7 +103,7 @@ label {
 }
 
 ul {
-  padding-left: 1.25rem;
+  padding-left: var(--size-4);
 }
 
 ul.blog-list {
@@ -182,7 +210,7 @@ blockquote::before {
   content: "";
   float: left;
   position: absolute;
-  background: var(--gradient-primary);
+  background: var(--gradient-secondary-topdown);
   width: 5px;
   margin-right: 1em;
   top: 0px;
@@ -193,6 +221,8 @@ blockquote::before {
 .flex-column {
   display: flex;
   flex-direction: column;
+  /* justify-items: space-around; */
+  align-items: center;
 }
 
 .flex-row {
@@ -288,6 +318,10 @@ blockquote::before {
     font-size: var(--font-size-3);
     width: fit-content;
   }
+}
+
+.footer-nav {
+  justify-content: space-around;
 }
 
 .back-navigation {
