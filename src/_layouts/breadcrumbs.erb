@@ -4,11 +4,11 @@
     <%= render "head", metadata: site.metadata, title: resource.data.title %>
   </head>
   <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
-    <nav class="back-navigation truncate margin-top-2 text-muted">
+    <header class="back-navigation truncate margin-top-2 text-muted">
       <a href="/" class="back-nav">
         Elise Shaffer
       </a>
-    </nav>
+    </header>
 
     <main>
       <%= yield %>
