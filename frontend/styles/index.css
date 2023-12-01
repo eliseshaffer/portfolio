@@ -316,7 +316,6 @@ blockquote::before {
   list-style-type: none;
 }
 
-
 /*  blocks  */
 .back-link {
   display: block;
@@ -327,20 +326,46 @@ blockquote::before {
     margin-right: var(--size-2);
   }
 }
+
+.site-links, .social-links {
+  display: flex;
+}
+
+.site-links > *, .social-links > * {
+  font-size: var(--font-size-2);
+}
+
+.site-links > .fa-solid, .social-links > .fa-solid {
+  color: var(--color-primary);
+  font-size: .25rem;
+  align-self: center;
+  margin-inline: var(--size-2);
+}
+
+.site-links > a:not(:last-child)::after, .social-links > a:not(:last-child)::after {
+  margin-inline: var(--size-2);
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+
+  & .site-links, .social-links {
+    margin-block-end: var(--size-2);
+  }
+}
+
+@media screen and (width >= 500px) {
+  .flow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .publish-date {
   color: var(--gray-7);
   font-size: .825rem;
-}
-
-.bottom-links {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  & a {
-    font-size: var(--font-size-3);
-    width: fit-content;
-  }
 }
 
 .footer-nav {
