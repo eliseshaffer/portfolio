@@ -409,32 +409,6 @@ blockquote::before {
   margin-inline: 2rem;
 }
 
-.contact-card {
-  background: var(--gradient-secondary);
-  color: var(--violet-7);
-  display: grid;
-  padding: 1rem 2rem;
-  border-radius: 2rem;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-
-  & input, & textarea {
-    width: 100%;
-    border-radius: .5rem;
-    border: 0;
-    padding-inline: .5rem;
-    padding-block: .25rem;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  }
-
-  & textarea {
-    resize: vertical;
-    min-height: 5rem;
-    border-radius: .5rem;
-    border: 0;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  }
-}
-
 .button-primary {
   background: var(--gradient-primary-reverse);
   color: white;
@@ -443,15 +417,4 @@ blockquote::before {
   padding-block: .25rem;
   padding-inline: 1rem;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-}
-
-.job {
-  /* & h2 { */
-  /*   color: var(--color-primary); */
-  /* } */
-
-  /* & h3 { */
-  /*   font-weight: semibold; */
-  /* } */
-
 }
