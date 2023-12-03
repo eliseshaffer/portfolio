@@ -43,6 +43,7 @@ h1 {
 
 h2 {
   color: var(--color-h2);
+
   & a {
     color: var(--color-h2-a);
   }
@@ -234,6 +235,7 @@ blockquote {
   padding-left: 2rem;
   padding-right: 1rem;
   margin-bottom: 1rem;
+  font-style: italic;
   background: var(--gradient-secondary);
 
   & blockquote {
@@ -254,7 +256,7 @@ blockquote::before {
   float: left;
   position: absolute;
   background: var(--gradient-3);
-  width: 5px;
+  width: 3px;
   margin-right: 1em;
   top: 0px;
   bottom: 0px;
@@ -373,6 +375,7 @@ blockquote::before {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-block-start: var(--size-8);
   }
 }
 
