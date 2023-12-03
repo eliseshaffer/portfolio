@@ -237,6 +237,7 @@ blockquote {
   display: grid;
   position: relative;
   padding-left: 2rem;
+  padding-right: 1rem;
   margin-bottom: 1rem;
   background: var(--gradient-secondary);
 
