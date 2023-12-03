@@ -42,3 +42,9 @@
   for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico|woff2)"
   [headers.values]
     Cache-Control = "public, max-age=0, s-max-age=0"
+
+[[redirects]]
+  from = "/posts"
+  to = "/writing"
+  status = 301
+  force = false
