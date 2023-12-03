@@ -2,7 +2,9 @@
 layout: breadcrumbs
 ---
 
+<a href="/writing" class="back-link"><i class="fa fa-angle-left"></i>Back</a>
+
+<span class="publish-date"><%= resource.data.date.strftime('%b %d, %Y') %></span>
 <h1><%= resource.data.title %></h1>
-<em><%= resource.data.date.strftime('%B %-d, %Y') %></em>
 
 <%= yield %>

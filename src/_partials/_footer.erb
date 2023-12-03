@@ -1,7 +1,21 @@
 <footer>
-  <% if resource.data.layout == 'post' %>
-    Written with <i class="fa-solid fa-heart text-primary"></i>  in Denver, CO
-  <% else %>
-    Made with <i class="fa-solid fa-heart text-primary"></i>  in Denver, CO
-  <% end %>
+  <div class="footer-flow">
+    <section class="site-links">
+      <a href="/writing">Writing</a>
+      <a href="/uses">Tech</a>
+      <a href="/resume">Work</a>
+    </section>
+    <section class="social-links">
+      <a href="https://github.com/eliseshaffer">Github</a>
+      <a href="https://www.strava.com/athletes/111360327">Strava</a>
+      <a href="mailto:elise.shaffer@hey.com">Email</a>
+    </section>
+    <div class="attribution">
+      <% if resource.data.layout == 'post' %>
+        Written with <i class="fa-solid fa-heart text-primary"></i> from Denver, CO
+      <% else %>
+        Made with <i class="fa-solid fa-heart"></i> in Denver, CO
+      <% end %>
+    </div>
+  </div>
 </footer>

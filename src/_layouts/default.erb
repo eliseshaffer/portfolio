@@ -6,13 +6,25 @@
 </head>
 
 <body class="flex-column">
-  <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
-
   <main>
     <%= yield %>
+    <div class="flow">
+      <section class="site-links">
+        <a href="/writing">Writing</a> 
+        <i class="fa-solid fa-circle"></i>
+        <a href="/uses">Tech</a>
+        <i class="fa-solid fa-circle"></i>
+        <a href="/resume">Work</a>
+      </section>
+      <section class="social-links">
+        <a href="https://github.com/eliseshaffer">Github</a>
+        <i class="fa-solid fa-circle"></i>
+        <a href="https://www.strava.com/athletes/111360327">Strava</a>
+        <i class="fa-solid fa-circle"></i>
+        <a href="mailto:elise.shaffer@hey.com">Email</a>
+      </section>
+    </div>
   </main>
-
-  <%= render "footer" , metadata: site.metadata %>
 </body>
 
 </html>
