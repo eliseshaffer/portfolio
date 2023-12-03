@@ -8,7 +8,7 @@ title: Writing
 <ul class="blog-list">
   <% collections.posts.each do |post| %>
     <li>
-      <a href="<%= post.relative_url %>">
+      <a href="<%= post.relative_url %>" class="post-link">
         <%= post.data.title %>
       </a>
       <span class="publish-date">
