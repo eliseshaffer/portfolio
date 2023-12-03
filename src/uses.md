@@ -3,6 +3,8 @@ layout: breadcrumbs
 title: Uses
 ---
 
+<a href="/" class="back-link"><i class="fa fa-angle-left"></i>Back</a>
+
 # Uses
 
 This is an occasionally updated list of the tech I use.
