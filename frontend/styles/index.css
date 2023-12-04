@@ -346,6 +346,7 @@ blockquote::before {
 /*  blocks  */
 .back-link {
   display: block;
+  width: fit-content;
   font-size: var(--font-size-3);
   margin-block-end: var(--size-4);
 
