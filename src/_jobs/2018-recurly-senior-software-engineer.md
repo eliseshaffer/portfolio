@@ -10,7 +10,7 @@ end_date: 2020-02-01
 * Mentored team members on architecture and development of features
 * Developed Account Hierarchy feature for merchants to better organize and bill customers
 * Developed Subscription Terms feature allowing merchants to set cancellation terms
-* Developed feature allowing merchants to update or grandfather customers at specific times
+* Developed feature allowing merchants to upgrade customers on legacy plans at specific times
 * Led refactoring effort for our subscription change functionality
 
 
