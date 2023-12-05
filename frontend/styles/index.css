@@ -44,6 +44,11 @@ body {
   }
 }
 
+h2, h3 {
+  font-family: var(--title-font), sans-serif;
+  font-weight: 400;
+}
+
 h1 {
   font-family: var(--title-font), sans-serif;
   font-weight: 400;
