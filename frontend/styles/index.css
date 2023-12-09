@@ -383,7 +383,7 @@ blockquote::before {
   display: flex;
   flex-direction: column;
 
-  & .site-links, .social-links {
+  & .site-links, & .social-links {
     margin-block-end: var(--size-2);
   }
 }
