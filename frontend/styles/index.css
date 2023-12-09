@@ -34,6 +34,7 @@
     --color-primary: var(--violet-4);
     --gradient-primary: linear-gradient(215deg, var(--purple-4) 0%, var(--purple-3) 35%, var(--violet-3) 100%);
     --gradient-footer-bg: linear-gradient(190deg, var(--violet-12) 0%, var(--violet-10) 75%, var(--purple-11) 100%);
+    --gradient-footer-bg: var(--gray-8);
     --gradient-footer-fg: linear-gradient(215deg, var(--purple-4) 0%, var(--purple-2) 55%, var(--violet-2) 100%);
     --gradient-secondary: var(--gray-8);
     --color-h2: var(--purple-4);
