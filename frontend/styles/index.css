@@ -13,6 +13,7 @@
   --color-prose: var(--gray-12);
   --color-h2: var(--purple-7);
   --color-h2-a: var(--violet-7);
+  --color-h3: var(--violet-7);
   --color-background: var(--gray-0);
   --highlighter-color: var(--violet-1);
   --gradient-primary: linear-gradient(215deg, var(--violet-6) 0%, var(--violet-8) 35%, var(--purple-7) 100%);
@@ -70,7 +71,7 @@ h2 {
 }
 
 h3 {
-  color: var(--violet-7);
+  color: var(--color-h3);
 }
 
 header {
