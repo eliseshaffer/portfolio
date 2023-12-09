@@ -12,15 +12,33 @@
   --color-prose: var(--gray-12);
   --color-h2: var(--purple-7);
   --color-h2-a: var(--violet-7);
+  --color-h3: var(--violet-7);
   --color-background: var(--gray-0);
   --highlighter-color: var(--violet-1);
   --gradient-primary: linear-gradient(215deg, var(--violet-6) 0%, var(--violet-8) 35%, var(--purple-7) 100%);
   --gradient-primary-reverse: linear-gradient(55deg, var(--violet-6) 0%, var(--violet-8) 35%, var(--purple-7) 100%);
   --gradient-secondary: linear-gradient(190deg, var(--violet-1) 0%, var(--violet-0) 35%, var(--purple-0) 100%);
   --gradient-secondary-reverse: linear-gradient(320deg, var(--violet-1) 0%, var(--violet-0) 35%, var(--purple-0) 100%);
+  --gradient-footer-bg: var(--gradient-secondary-reverse);
+  --gradient-footer-fg: var(--gradient-primary);
   --gradient-3: linear-gradient(190deg, var(--violet-3) 0%, var(--violet-2) 35%, var(--purple-2) 100%);
   --gradient-4: linear-gradient(190deg, var(--violet-2) 0%, var(--violet-1) 35%, var(--purple-1) 100%);
   --content-width: min(65ch, 90%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--gray-12);
+    --color-prose: var(--gray-3);
+    --color-muted: var(--gray-6);
+    --color-primary: var(--violet-4);
+    --gradient-primary: linear-gradient(215deg, var(--purple-4) 0%, var(--purple-3) 35%, var(--violet-3) 100%);
+    --gradient-footer-bg: linear-gradient(190deg, var(--violet-12) 0%, var(--violet-10) 75%, var(--purple-11) 100%);
+    --gradient-footer-fg: linear-gradient(215deg, var(--purple-4) 0%, var(--purple-2) 55%, var(--violet-2) 100%);
+    --color-h2: var(--purple-4);
+    --color-h2-a: var(--violet-4);
+    --color-h3: var(--violet-4);
+  }
 }
 
 body {
@@ -70,7 +88,7 @@ h2 {
 }
 
 h3 {
-  color: var(--violet-7);
+  color: var(--color-h3);
 }
 
 header {
@@ -79,7 +97,7 @@ header {
 }
 
 footer {
-  background: var(--gradient-secondary-reverse);
+  background: var(--gradient-footer-bg);
   width: 100%;
   margin-block-start: var(--size-10);
   
@@ -107,6 +125,12 @@ footer {
       justify-items: right;
       margin-block-start: var(--size-5);
     }
+
+    & .site-links > a, & .social-links > a {
+      background: var(--gradient-footer-fg);
+      background-clip: text;
+    }
+
 
     @media (width >= 500px) {
       & section.site-links {
@@ -138,7 +162,7 @@ footer {
   text-align: center;
   color: transparent;
   font-size: var(--font-size-1);
-  background: var(--gradient-primary);
+  background: var(--gradient-footer-fg);
   margin-inline: auto;
   width: auto;
   background-clip: text;
