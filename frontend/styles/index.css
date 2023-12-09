@@ -35,6 +35,7 @@
     --gradient-primary: linear-gradient(215deg, var(--purple-4) 0%, var(--purple-3) 35%, var(--violet-3) 100%);
     --gradient-footer-bg: linear-gradient(190deg, var(--violet-12) 0%, var(--violet-10) 75%, var(--purple-11) 100%);
     --gradient-footer-fg: linear-gradient(215deg, var(--purple-4) 0%, var(--purple-2) 55%, var(--violet-2) 100%);
+    --gradient-secondary: var(--gray-8);
     --color-h2: var(--purple-4);
     --color-h2-a: var(--violet-4);
     --color-h3: var(--violet-4);
@@ -278,6 +279,7 @@ blockquote {
   margin-bottom: 1rem;
   font-style: italic;
   background: var(--gradient-secondary);
+  /* color: var(--gray-12); */
 
   & blockquote {
     background: transparent;
