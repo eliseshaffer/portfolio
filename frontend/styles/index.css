@@ -7,6 +7,7 @@
 :root {
   --title-font: "Domine";
   --body-font: "Inter";
+  --content-width: min(65ch, 90%);
   --color-primary: var(--purple-7);
   --color-muted: var(--gray-7);
   --color-prose: var(--gray-12);
@@ -20,7 +21,6 @@
   --gradient-secondary-reverse: linear-gradient(320deg, var(--violet-1) 0%, var(--violet-0) 35%, var(--purple-0) 100%);
   --gradient-3: linear-gradient(190deg, var(--violet-3) 0%, var(--violet-2) 35%, var(--purple-2) 100%);
   --gradient-4: linear-gradient(190deg, var(--violet-2) 0%, var(--violet-1) 35%, var(--purple-1) 100%);
-  --content-width: min(65ch, 90%);
 }
 
 body {
