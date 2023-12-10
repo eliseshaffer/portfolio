@@ -9,13 +9,6 @@ title: Writing
 
 <ul class="blog-list">
   <% collections.posts.each do |post| %>
-    <li>
-      <a href="<%= post.relative_url %>" class="post-link">
-        <%= post.data.title %>
-      </a>
-      <span class="publish-date">
-        <%= post.data.date.strftime("%b %-d, %Y") %>
-      </span>
-    </li>
+    <%= render Post.new(post: post) %>
   <% end %>
 </ul>
