@@ -8,18 +8,5 @@ title: Resume
 <h1>Resume</h1>
 
 <% collections.jobs.resources.reverse.each do |job| %>
-  <article class="job">
-    <h2> <%= job.data.company %> </h2>
-    <h3>
-      <%= job.data.title %>
-    </h3>
-    <div>
-      <em>
-        <%= job.data.start_date.strftime("%b %Y") %> - <%= job.data.end_date&.strftime("%b %Y")  || "Present" %>
-      </em>
-    </div>
-    <div>
-      <%= job.content %>
-    </div>
-  </article>
+  <%= render Job.new(resource: job) %>
 <% end %>
