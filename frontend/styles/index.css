@@ -92,6 +92,7 @@ footer {
     & .site-links > a, & .social-links > a {
       background: var(--gradient-footer-fg);
       background-clip: text;
+      width: fit-content;
     }
 
 
