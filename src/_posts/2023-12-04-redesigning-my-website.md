@@ -2,15 +2,11 @@
 layout: post
 title: Redesigning My Website
 date: 2023-12-04
-excerpt: ""
+excerpt: Yesterday, I merged a redesign of my website and so far, people seem to really like it. This was a multi-week project to bring some new life to my website and fix some accessibility and technical issues. I also wanted to explore some modern CSS features. This was a really fun project and I think the new site is much better than the old one. 
 banner_image_url:
 ---
 
-Yesterday, I merged a redesign of my website and so far, people seem to
-really like it. This was a multi-week project to bring some new life to my
-website and fix some accessibility and technical issues. I also wanted to
-explore some modern CSS features. This was a really fun project and
-I think the new site is much better than the old one. 
+Yesterday, I merged a redesign of my website and so far, people seem to really like it. This was a multi-week project to bring some new life to my website and fix some accessibility and technical issues. I also wanted to explore some modern CSS features. This was a really fun project and I think the new site is much better than the old one. 
 
 I started by bringing the code as up to date as I could. I was a version behind of Bridgetown's latest release. Thankfully, the upgrade process was painless. 😊 I also took the time to upgrade all of the node modules I was using before evaluating the technical choices for the site going forward. 
 

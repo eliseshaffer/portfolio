@@ -2,7 +2,7 @@
 layout: post
 title: The Technical Decisions Behind My Website Redesign
 date: 2023-12-11
-excerpt:
+excerpt: Last week, I deployed a complete redesign of my personal website. I wrote briefly about the design decisions and iterations that went into the redesign. But, I also wanted to talk about the technical decisions of this redesign. 
 ---
 
 Last week, I deployed a complete redesign of my personal website. I wrote briefly about the design decisions and iterations that went into the redesign. But, I also wanted to talk about the technical decisions of this redesign. 
