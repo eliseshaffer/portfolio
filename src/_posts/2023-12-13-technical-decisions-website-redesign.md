@@ -19,16 +19,16 @@ For some time now, I've been wondering if the marginal utility of Sass is worth 
 
 In contrast, CSS custom properties are part of the standard. They can have different values at different scopes. They can be accessed and manipulated by Javascript in the browser and they are more declarative. They have so much more power than Sass variables. One of the big concerns with them used to be browser compatibility. But, all the big browsers have supported it for years now.
 
-CSS Custom properties also make things like dark mode a cinch to implement. You can decide your palettes and switch them with a single CSS rule. After deploying the redesign, I decided to add dark mode and it was incredibly easy thanks to CSS custom properties. All I had to do was change the variable declarations within the scope of dark mode. 
+CSS Custom properties also make things like dark mode a cinch to implement. You can decide your palettes and switch them redefining the variables. After deploying the redesign, I decided to add dark mode and it was incredibly easy thanks to CSS custom properties. All I had to do was change the variable declarations within the scope of dark mode. 
 
 Other feature, like nesting are also supported by CSS natively now. This one has less browser support, but since I'm using PostCSS for compilation, I can use it and then it will get compiled down to a format that is supported browsers. 
 
-With all of this in mind, I decided to remove Sass from my personal website and use Vanilla CSS. This decision turned out to be great from both a dependency and developer experience perspective. 
+With all of this in mind, I decided to remove Sass from my personal website and use vanilla CSS. This decision turned out to be great from both a dependency and developer experience perspective. 
 
 ## CUBE CSS and Open Props
 When I start new projects, I like to pick something that I want to get better at. This time, it was CSS. There are so many methodologies for how CSS should be organized and written. From design methodologies like Block-Element-Modifier to full blown utility first frameworks. There's no shortage of ideas about how best to style HTML.
 
-For my personal website, I chose to pair Andy Bell's [CUBE CSS methodoloy](https://cube.fyi/). with [Open Props](https://open-props.style/). 
+For my personal website, I chose to pair Andy Bell's [CUBE CSS methodoloy](https://cube.fyi/) with [Open Props](https://open-props.style/). 
 
 CUBE CSS is a CSS methodology that aims to be progressive and scalable. It focuses on starting with good HTML styling. Then, it organizes the rest of your styles into Composition, Utilities, Blocks, and Exception. One of the big benefits of it is that you can write much less CSS. It sorta feels like getting the best of everyone's ideas. Starting with HTML styling is like starting with class-less CSS. It gives you a great starting point for your site. Then you layer on Composition. The composition is the set of styles that determine how content flows on the page. Bell even calls this section `.flow` in his examples. CUBE also advocates utilities. Utilities are one-off classes that do one thing really well. Blocks are what you think of when you think of the block in BEM. And then you have Exceptions. One thing I like about the exceptions of CUBE is that they use data attribute selectors, which facilitates the use of state machines in your CSS.
 
