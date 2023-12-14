@@ -1,0 +1,46 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+
+  & .site-links, & .social-links {
+    margin-block-end: var(--size-2);
+  }
+}
+
+@media screen and (width >= 500px) {
+  .flow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block-start: var(--size-8);
+  }
+}
+
+@media screen and (width >= 500px) {
+  .centered-page {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+    & main {
+      margin-top: -2rem;
+    }
+  }
+}
+
