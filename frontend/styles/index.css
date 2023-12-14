@@ -54,6 +54,24 @@ h3 {
   color: var(--color-h3);
 }
 
+figure {
+  /* margin-inline-stt: -2rem; */
+  & img {
+    width: 40%;
+    margin-inline: auto;
+  }
+
+  & figcaption {
+    font-size: var(--font-size-0);
+    width: 75%;
+    margin-inline: auto;
+    text-align: center;
+    font-style: italic;
+    margin-block-start: 1rem;
+    color: var(--color-muted);
+  }
+}
+
 header {
   margin-block: var(--size-7) var(--size-3);
   text-align: center;
