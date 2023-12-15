@@ -36,6 +36,12 @@ h3 {
   color: var(--color-h3);
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background: var(--gradient-primary);
+}
+
 figure {
   /* margin-inline-stt: -2rem; */
   & img {
