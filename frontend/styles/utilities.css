@@ -48,3 +48,10 @@
   list-style-type: none;
 }
 
+.flex-row {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
