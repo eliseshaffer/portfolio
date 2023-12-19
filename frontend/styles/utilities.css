@@ -2,6 +2,10 @@
   margin-bottom: 2rem;
 }
 
+.margin-bottom-4 {
+  margin-bottom: var(--size-4);
+}
+
 .margin-top-2 {
   margin-top: 2rem;
 }
@@ -54,4 +58,8 @@
 
 .space-between {
   justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
 }

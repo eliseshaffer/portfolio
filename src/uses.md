@@ -3,7 +3,7 @@ layout: breadcrumbs
 title: Uses
 ---
 
-<a href="/" class="back-link"><i class="fa fa-angle-left"></i>Back</a>
+<a href="/" class="back-link margin-bottom-4"><i class="fa fa-angle-left"></i>Back</a>
 
 # Uses
 
