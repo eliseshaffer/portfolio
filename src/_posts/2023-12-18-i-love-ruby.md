@@ -45,7 +45,7 @@ RSpec.describe Ticket do
   context 'when the ticket is closed' do
     it 'emails the requestor with a confirmation' do
       ...
-	end
+    end
   end
 end
 ```
