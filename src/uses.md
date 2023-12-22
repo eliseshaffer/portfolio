@@ -19,7 +19,7 @@ This is an occasionally updated list of the tech I use.
 
 ## Peripherals
 - I use a custom mechanical keyboard made with the [Drop SENSE75](https://drop.com/buy/drop-sense75-barebones-mechanical-keyboard?searchId=ba3c4499c3625e02f9c3622bba48d238&defaultSelectionIds=973431) Kit and [Gateron Milky Yellow Pro](https://divinikey.com/products/gateron-ks-3-milky-yellow-pro-linear-switches) switches.
-- I click things with the [Logitech MX Master 3S](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006558.html)
+- I use the [Logitech MX Master 3S](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006558.html) mouse for productivity and the [Logitech G600](https://www.logitechg.com/en-us/products/gaming-mice/g600-mmo-gaming-mouse.910-002864.html) for games.
 - My monitor is the [LG 38WP85C-W Curved Ultrawide Monitor](https://www.amazon.com/gp/product/B09BP1P4BG)
 - I use an LG webcam
 
@@ -29,12 +29,12 @@ This is an occasionally updated list of the tech I use.
 - [Focusrite Scarlet Solo](https://www.amazon.com/gp/product/B01E6T56CM)
 
 ## Desktop Software
-- I use iTerm for my terminal
+- I use [Warp](https://www.warp.dev/) for my terminal
 - Neovim is my editor of choice. I've tried various editors including those with "Vim Modes," but I keep coming back to Neovim. You can see more of my config in my [dotfiles](https://github.com/eliseshaffer/dotfiles)
 - My colorscheme is [Catppuccin](https://github.com/catppuccin/nvim). I switch between the Macchiato and Latte themes.
 - I use [RapidAPI](https://paw.cloud/) for API testing
 - My favorite database client is [SQL Pro Studio](https://www.sqlprostudio.com/).
-- My primary browser is Arc on Mac, and Firefox on Windows. I previously used Safari for personal stuff and Chrome for development. 
+- My primary browser is Arc on Mac, and Firefox on Windows.
 - [Obsidian](https://obsidian.md/) is my goto note taking app and is also becoming my task manager.
 
 ## Gadgets
