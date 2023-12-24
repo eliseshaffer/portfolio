@@ -6,13 +6,7 @@ excerpt: I've done a lot in my career. From working on business support software
 banner_image_url: "2023-12-18-ruby-logo.png"
 ---
 
-<figure>
-    <img src="/images/2023-12-18-ruby-logo.png"
-         alt="Ruby logo">
-    <figcaption>
-        The Ruby logo is Copyright © 2006, Yukihiro Matsumoto and is licensed under Creative Commons Attribution-ShareAlike 2.5
-    </figcaption>
-</figure>
+<%= render CaptionedFigure.new(url: "/images/2023-12-18-ruby-logo.png", alt_text: "Ruby logo", caption: "The Ruby logo is Copyright © 2006, Yukihiro Matsumoto and is licensed under Creative Commons Attribution-ShareAlike 2.5") %>
 
 I've done a lot in my career. From working on business support software to big backend systems and even robotics. If there's been a consistent through-line to my career, it's the Ruby programming language. 
 
