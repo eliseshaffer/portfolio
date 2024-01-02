@@ -48,7 +48,7 @@ This is an occasionally updated list of the tech I use.
 
 ## Important Apps
 - Spotify for music
-- Overcast for podcast
+- Overcast for podcasts
 - [The Storygraph](https://app.thestorygraph.com/profile/eliseshaffer) for tracking my reading
 - [YNAB](https://www.ynab.com/) for budgeting
 - Apple Maps
