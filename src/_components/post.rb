@@ -20,6 +20,6 @@ class Post < Bridgetown::Component
   end
 
   def published_on
-    post.data.date.strftime('%b %-d, %Y')
+    post.data.date.strftime("%b %-d, %Y")
   end
 end

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Renders a single job
 class Job < Bridgetown::Component
   def initialize(resource:)
@@ -20,7 +18,7 @@ class Job < Bridgetown::Component
   end
 
   def tenure
-    "#{resource.data.start_date.strftime('%b %Y')} - #{resource.data.end_date&.strftime('%b %Y') || 'Present'}"
+    "#{resource.data.start_date.strftime("%b %Y")} - #{resource.data.end_date&.strftime("%b %Y") || "Present"}"
   end
 
   def responsibilities

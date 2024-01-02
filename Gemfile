@@ -33,3 +33,6 @@ gem "bridgetown", "~> 1.3.2"
 gem "puma", "~> 6.0"
 
 gem "bridgetown-feed", "~> 3.0"
+
+gem "standard", group: %i[development test]
+gem "rubocop", group: %i[development test]
