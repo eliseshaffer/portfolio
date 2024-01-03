@@ -6,6 +6,10 @@
   margin-bottom: var(--size-4);
 }
 
+.margin-top-0-5 {
+  margin-top: 0.5rem;
+}
+
 .margin-top-2 {
   margin-top: 2rem;
 }
@@ -36,6 +40,10 @@
 
 .text-black {
   color: black;
+}
+
+.text-small {
+  font-size: var(--font-size-0);
 }
 
 .truncate {
