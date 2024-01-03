@@ -5,4 +5,8 @@ class CaptionedFigure < Bridgetown::Component
     @url, @alt_text, @caption = url, alt_text, caption
     super()
   end
+
+  private
+
+  attr_reader :url, :alt_text, :caption
 end
