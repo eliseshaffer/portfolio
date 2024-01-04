@@ -21,7 +21,7 @@ footer {
     grid-template-rows: repeat(2, fit-content);
 
     & .site-links {
-      display: grid !important;
+      display: grid;
       list-style-type: none;
       grid-column: 1/4;
       text-align: left;
@@ -29,7 +29,7 @@ footer {
     }
 
     & .social-links {
-      display: grid !important;
+      display: grid;
       list-style-type: none;
       grid-column: 5/9;
       text-align: right;
@@ -46,7 +46,7 @@ footer {
 
     @media (width >= 500px) {
       & .site-links {
-        display: grid !important;
+        display: grid;
         list-style-type: none;
         grid-template-columns: subgrid;
         grid-template-rows: 1fr;
@@ -56,7 +56,7 @@ footer {
       }
 
       & .social-links {
-        display: grid !important;
+        display: grid;
         grid-template-columns: subgrid;
         grid-template-rows: 1fr;
         grid-column: 6/9;
