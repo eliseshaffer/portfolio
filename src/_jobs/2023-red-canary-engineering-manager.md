@@ -2,6 +2,7 @@
 company: Red Canary
 title: Manager, Software Engineer
 start_date: 2022-11-15
+end_date: 2023-08-23
 ---
 
 * Managed a team of 6 software engineers responsible for building integrations with Network, SIEM, and Endpoint security products
