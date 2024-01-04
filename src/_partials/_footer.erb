@@ -1,14 +1,14 @@
 <footer>
   <div class="footer-flow">
     <section class="site-links">
-      <a href="/writing">Writing</a>
-      <a href="/uses">Tech</a>
-      <a href="/resume">Work</a>
+      <% site.data.links.site.each do |link| %>
+        <a href="<%= link.href %>"><%= link.name %></a>
+      <% end %>
     </section>
     <section class="social-links">
-      <a href="https://github.com/eliseshaffer">Github</a>
-      <a href="https://www.strava.com/athletes/111360327">Strava</a>
-      <a href="mailto:elise.shaffer@hey.com">Email</a>
+      <% site.data.links.social.each do |link| %>
+        <a href="<%= link.href %>"><%= link.name %></a>
+      <% end %>
     </section>
     <div class="attribution">
       <% if resource.data.layout == 'post' %>

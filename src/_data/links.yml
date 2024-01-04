@@ -1,0 +1,17 @@
+social:
+  - name: Github
+    path: https://github.com/eliseshaffer
+  - name: Strava
+    path: https://www.strava.com/athletes/111360327
+  - name: Email
+    path: mailto:elise.shaffer@hey.com
+  # - name: Twitch
+  #   path: https://twitch.tv/yesthatelise
+
+site:
+  - name: Writing
+    path: "/writing"
+  - name: Tech
+    path: "/uses"
+  - name: Work
+    path: "/resume"
