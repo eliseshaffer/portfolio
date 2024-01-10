@@ -1,5 +1,5 @@
-const fetch = require('node-fetch')
 import { schedule } from '@netlify/functions'
+import fetch from 'node-fetch'
 
 // This is sample build hook
 const BUILD_HOOK = 'https://api.netlify.com/build_hooks/657b879e654dfe38bb17c0ec'
