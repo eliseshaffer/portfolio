@@ -63,6 +63,10 @@ figure {
 header {
   margin-block: var(--size-7) var(--size-3);
   text-align: center;
+
+  & a {
+    font-family: var(--title-font);
+  }
 }
 
 main {
