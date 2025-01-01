@@ -30,27 +30,22 @@ This is an occasionally updated list of the tech I use.
 
 ## Desktop Software
 - I use [Warp](https://www.warp.dev/) for my terminal
-- Neovim is my editor of choice. I've tried various editors including those with "Vim Modes," but I keep coming back to Neovim. You can see more of my config in my [dotfiles](https://github.com/eliseshaffer/dotfiles)
+- Neovim is my editor of choice. Here's my [config](https://github.com/eliseshaffer/nvim).
 - My colorscheme is [Catppuccin](https://github.com/catppuccin/nvim). I switch between the Macchiato and Latte themes.
-- I use [RapidAPI](https://paw.cloud/) for API testing
-- My favorite database client is [SQL Pro Studio](https://www.sqlprostudio.com/).
-- My primary browser is Arc on Mac, and Firefox on Windows.
-- [Obsidian](https://obsidian.md/) is my goto note taking app and is also becoming my task manager.
+- My web browser is [Arc](https://arc.net/).
+- [Bear](https://bear.app/) is my goto note taking app.
 
 ## Gadgets
 - iPhone 15 Pro
-- Apple Watch Series 8
-- Airpods 3
+- Apple Watch Series 10
+- Airpods 4
 - Airpods Max
-- iPad Air 4th Gen
-- Garmin Edge Explore 2 cycling computer
-- Sony a6000 camera
+- Garmin Edge 840
 
 ## Important Apps
 - Spotify for music
-- Overcast for podcasts
+- PlexAMP for music
 - [The Storygraph](https://app.thestorygraph.com/profile/eliseshaffer) for tracking my reading
 - [YNAB](https://www.ynab.com/) for budgeting
 - Apple Maps
 - [Strava](https://www.strava.com/athletes/111360327), Garmin Connect, and Apple Workouts for fitness
-- Calm for meditation (Although, I've started doing more self directed meditation)
