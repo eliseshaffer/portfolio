@@ -45,7 +45,7 @@ This is an occasionally updated list of the tech I use.
 ## Important Apps
 - Spotify for music
 - PlexAMP for music
-- [The Storygraph](https://app.thestorygraph.com/profile/eliseshaffer) for tracking my reading
+- [The Storygraph](https://app.thestorygraph.com/profile/yesthatelise) for tracking my reading
 - [YNAB](https://www.ynab.com/) for budgeting
 - Apple Maps
 - [Strava](https://www.strava.com/athletes/111360327), Garmin Connect, and Apple Workouts for fitness
