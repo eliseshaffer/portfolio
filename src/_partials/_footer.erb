@@ -2,12 +2,12 @@
   <div class="footer-flow">
     <section class="site-links">
       <% site.data.links.site.each do |link| %>
-        <a href="<%= link.href %>"><%= link.name %></a>
+        <a href="<%= link.path %>"><%= link.name %></a>
       <% end %>
     </section>
     <section class="social-links">
       <% site.data.links.social.each do |link| %>
-        <a href="<%= link.href %>"><%= link.name %></a>
+        <a href="<%= link.path %>"><%= link.name %></a>
       <% end %>
     </section>
     <div class="attribution">
